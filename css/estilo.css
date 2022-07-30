@@ -373,7 +373,7 @@ form{
 .icon{
     font-size: 1.5rem;
     /*animation: float 4s ease-in-out infinite;*/
-}/*
+}
 .fa-facebook{
     animation-delay: 0.5s;
 }
@@ -390,7 +390,7 @@ form{
     100%{
         transform: translateX(0);
     }
-}*/
+}
 .fa-whatsapp{
     color:white;
     font-size: 3rem;
@@ -400,6 +400,19 @@ form{
 .parrafo__contacto{
     font-size: 0.8rem;
 }
+.animate_animate.animate__backInDown{
+    animation-duration: 3s;
+}
+.animate_animate.animate__bounceInDown{
+    animation-duration: 3s;
+}
+.animate_animate.animate__bounceInUp{
+    animation-duration: 3s;
+}
+.animate_animate.animate__fadeInDown{
+    animation-duration: 2s;
+}
+
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
     .contenedor{
@@ -515,6 +528,10 @@ form{
         display: flex;
         flex-direction: column;
     }
+    .navegador__a:hover{
+        font-size: 1rem;
+    }
+    
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .contenedor{
@@ -616,6 +633,10 @@ form{
         display: flex;
         flex-direction: column;
     }
+    .navegador__a:hover{
+        font-size: 1.2rem;
+    }
+    
 }
 
     
