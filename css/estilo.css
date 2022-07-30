@@ -189,10 +189,6 @@ footer{
     margin: 2%;  
 }
 /*primer lista de producto*/
-.animate__animate.animate__bounceInUp{
-    animation-duration: 10s;
-}
-/*primer lista de producto*/
 .producto__li{
     display: inline-block; 
     border-style: none;
@@ -376,8 +372,8 @@ form{
 
 .icon{
     font-size: 1.5rem;
-    animation: float 4s ease-in-out infinite;
-}
+    /*animation: float 4s ease-in-out infinite;*/
+}/*
 .fa-facebook{
     animation-delay: 0.5s;
 }
@@ -394,7 +390,7 @@ form{
     100%{
         transform: translateX(0);
     }
-}
+}*/
 .fa-whatsapp{
     color:white;
     font-size: 3rem;
