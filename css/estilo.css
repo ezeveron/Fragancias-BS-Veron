@@ -42,19 +42,14 @@ h1{
     margin: 1%;
     margin-left: 35%; 
 }
-.color{
-    color: white;
-}
+
 /*navegador header*/
-nav{  
-   position: fixed;
-   display: flex;
-   flex-direction: column;
+.nav{  
+   display: fixed; 
    position: sticky;
    top: 0%;
    z-index: 10; 
    font-size: 1.3rem;
-   color: rgb(255, 255, 255);
    background-color: rgb(42, 134, 88);
 }
 .animate__animate.animate__flash{
