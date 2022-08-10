@@ -9,37 +9,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="stylesheet" href="../css1/bootstrap-grid.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Productos</title>
     
 </head>
 <body>
-    <div class="contenedor">
-        <header class="header" > <!--Inicio del header-->
-            <h1 class="animate__animate animate__flash"> Mar de Fragancias BS </h1>
+    <div class="contenedor ">
+        <header class="header text-center" > <!--Inicio del header--> 
+            <h1 class="animate__animate animate__flash "><a href="#"><img class="img__logo" src="../images/logooriginal.png" alt="Logo"></a> Mar de Fragancias BS </h1>
+        
         </header>
-        <header class="nav">
-               
-            <nav> <!--Inicio del Menu de Navegacion-->
-                <a href="../index.html"><img class="img__logo" src="../images/logooriginal.png" alt="Logo"></a> 
-                <ul class="navegador__ul">
-                    <li class="navegador__li"><a href="../index.html" class="navegador__a">Incio</a></li>
-                    <li class="navegador__li"><a href="#" class="navegador__a">Productos</a></li>
-                    <li class="navegador__li"><a href="./quiensoy.html" class="navegador__a">Quien Soy</a></li>
-                    <li class="navegador__li"><a href="./ofertas.html" class="navegador__a">Ofertas</a></li>
-                    <li class="navegador__li"><a href="./galeria.html" class="navegador__a">Galeria</a></li>
-                    <li class="navegador__li"><a href="./contacto.html" class="navegador__a">Contacto</a></li>
-                </ul>
-            </nav> <!--Fin del Menu de Navegacion-->
-    
+        <header class="nav sticky-top">
+            
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid flex-column navegacion">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/quiensoy.html">Quien Soy</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/ofertas.html">Ofertas</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/contacto.html">Contactos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+           
 
         </header> <!--Fin del header-->
     
         <main> <!--Inicio del Main-->
 
             
-            <h2 id="arriba" class="animate_animate animate__bounceInRight">Productos </h2>
+            <h2 id="arriba" class="animate_animate animate__bounceInRight text-center">Productos </h2>
             
-            <section class="producto "> <!-- Inicio navegacion de productos dentro de la pagina -->
+            <section class="producto"> <!-- Inicio navegacion de productos dentro de la pagina -->
                 <ul class="producto__ul animate_animate animate__bounceInDown">
                     <li class="producto__li"> <a href="#perumesMasculinos"
                     class="producto__a">Perfumes Masculinos</a></li>
@@ -52,1010 +73,1071 @@
                 </ul>
             </section><!-- Fin navegacion de productos dentro de la pagina -->
 
-            <section class="producto2 "> <!--Inicio de Seccion de Listado-->
-                <h3 id="perfumesMasculinos" class="producto2__titulo animate_animate animate__bounceInUp">Perfumes Masculinos</h3>
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">Envase Original</h4>
+            <section class="producto2 container"> <!--Inicio de Seccion de Listado-->
+                <h3 id="perfumesMasculinos" class="producto2__titulo animate_animate animate__bounceInUp text-center">Perfumes Masculinos</h3>
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">Envase Original</h4>
                 
-                <ul class="producto2__ul animate_animate animate__bounceInUp ">
-                    <li class="producto2__li">
-                        BLACK XS
+                <ul class="animate_animate animate__bounceInUp row list-inline">
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li"> BLACK XS</p>
+                        <p class="productos2__p">$ 3.100,00 </p>
+                        <p class="productos2__p">Envase de 300 ml.</p>
+                    </li> 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img class="img__originales rounded" src="../images/invictomas.jpeg" alt="Perfume Invicto">
+                        <p class="producto2__li">INVICTUS</p>
+                        <p class="productos2__p">$ 3.100,00</p>
+                        <p class="productos2__p">Envase de 300 ml.</p>  
+                    </li>
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">SAUVAGE</p> 
                         <p class="productos2__p">$ 3.100,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li> 
-                    <li class="producto2__li">INVICTUS 
-                        <p class="productos2__p">$ 3.100,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
-                        <img class="img__originales" src="../images/invictomas.jpeg" alt="Perfume Invicto">
-                        
-                    </li>
-                    <li class="producto2__li">SAUVAGE
-                        <p class="productos2__p">$ 3.100,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
-                    </li> 
-                    <li class="producto2__li">212 VIP
+                    
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">212 VIP</p>
                         <p class="productos2__p">$ 3.100,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">212 VIP BLACK
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li"> 212 VIP BLACK</p> 
                         <p class="productos2__p">$ 3.100,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>    
-                    <li class="producto2__li">212 MASCULINO 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li "><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">212 MASCULINO</p>  
+                        <p class="productos2__p ">$ 3.100,00</p>
+                        <p class="productos2__p">Envase de 300 ml.</p>
+                    </li>
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">INVICTUS INTENSE</p> 
                         <p class="productos2__p">$ 3.100,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">INVICTUS INTENSE
-                        <p class="productos2__p">$ 3.100,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
-                    </li>
-                    <li class="producto2__li">POLO BLUE
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li"> POLO BLUE</p>
                         <p class="productos2__p">$ 2.850,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">POLO BLACK
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li"> POLO BLACK</p>
                         <p class="productos2__p">$ 2.850,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">POLO RED
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">POLO RED</p> 
                         <p class="productos2__p">$ 2.850,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">KENZO
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li "><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">KENZO</p> 
                         <p class="productos2__p">$ 2.850,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">ONE MILLON
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">ONE MILLON</p> 
                         <p class="productos2__p">$ 2.850,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">CK ONE UNISEX
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">CK ONE UNISEX</p>    
                         <p class="productos2__p">$ 2.850,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">CAROLINA HERRERA
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">CAROLINA HERRERA</p> 
                         <p class="productos2__p">$ 2.700,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">LEAU D'ISSEY
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">LEAU D'ISSEY</p> 
                         <p class="productos2__p">$ 2.700,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>   
                 </ul>
-                
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">Envases Comun</h4>
-                
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    
-                    <li class="producto2__li">212
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">Envases Comun</h4>
+                <div class="animate_animate animate__bounceInUp">
+                    <img src="../images/envase_comun_mas.jpg" alt="Envase Comun Femenino" class="img__perfumeo">
+                </div>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">212</p>
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">212 SEXY
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">212 SEXY</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">212 VIP
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">212 VIP</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Acquia Di Gio 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"> 
+                        <p class="producto2__li">Acquia Di Gio</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Angel
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Angel</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Armani Code Sport
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Armani Code Sport</p>
                         <p  class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Azzaro 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Azzaro </p>
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Bad Boy
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Bad Boy</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Bad Boy
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Bad Boy</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Black XS
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Black XS</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Bleu
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Bleu</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Blue Label
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Blue Label</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Carolina Herrera
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Carolina Herrera</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.
                     </li>
-                    <li class="producto2__li">CK One Unisex
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">CK One Unisex</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Cool Watwe 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Cool Watwe</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Ferenheit 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"> 
+                        <p class="producto2__li">Ferenheit</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>                    
-                    <li class="producto2__li">Givenchy
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Givenchy</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Invictus
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Invictus</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">J. P. Gaultier
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">J. P. Gaultier</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Le Beau
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Le Beau</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Leaud D Issey
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Leaud D Issey</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">One Million
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">One Million</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                        <li class="producto2__li">Paco Rabanne 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"> 
+                        <p class="producto2__li">Paco Rabanne</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Phatom 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Phatom </p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Polo 
-                        <p class="productos2__p">$ 1.000,00 
-                        </p>
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Polo </p>
+                        <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Polo Blue
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Polo Blue</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Polo Black
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Polo Black</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Sauvege 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"> 
+                        <p class="producto2__li">Sauvege</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Ted Lapidus
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Ted Lapidus</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">The Dreamer
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">The Dreamer</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">The One 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">The One</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Tommy
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Tommy</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Very Irresistible
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li">
+                        <p class="producto2__li">Very Irresistible</p>
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                     
-                </ul class="producto2__ul">
-                <div class="animate_animate animate__bounceInUp">
-                    <img src="../images/envase_comun_mas.jpg"  alt="Envase Comun Masculino" class="img__perfumeo"> 
-                </div>
+                    
+                </ul >
+                  
                 <a href="#arriba">Arriba</a>
-                <h3 id="perfumesFemeninos" class="producto2__titulo animate_animate animate__bounceInUp">Perfumes Femeninos</h3>
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">Envase Original</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">OLYMPHEA INTENSE 
+                <h3 id="perfumesFemeninos" class="producto2__titulo animate_animate animate__bounceInUp text-center">Perfumes Femeninos</h3>
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">Envase Original</h4>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="col-xl-4 col-md-6 text-centercol-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">OLYMPHEA INTENSE</p> 
                         <p class="productos2__p">$ 3.100,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">SCANDAL 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"> <img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">SCANDAL</p>
                         <p class="productos2__p">$ 3.100,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">OLYMPHEA 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">OLYMPHEA</p>  
                         <p class="productos2__p">$ 3.100,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">212 VIP ROSE
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">212 VIP ROSE</p>
                         <p class="productos2__p">$ 3.100,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li >
-                    <li class="producto2__li">212 VIP 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="..."> 
+                        <p class="producto2__li">212 VIP</p>
                         <p class="productos2__p">$ 3.100,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">212 SEXY
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">212 SEXY</p>
                         <p class="productos2__p">$ 3.100,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">GLAM (VERSION CITRICA DEL GOOD GIRL)
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">GLAM (VERSION CITRICA DEL GOOD GIRL)</p>
                         <p class="productos2__p">$ 3.100,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">LA VIDA ES BELLA
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">LA VIDA ES BELLA</p>
                         <p class="productos2__p">$ 3.100,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">GOOD GIRL
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">GOOD GIRL</p>
                         <p class="productos2__p">$ 3.100,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">NINA (MANZANITA ROJA) 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="..."> 
+                        <p class="producto2__li">NINA (MANZANITA ROJA)</p>
                         <p class="productos2__p">$ 2.850,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">NINA LUNA (MANZANITA CELESTE)
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">NINA LUNA (MANZANITA CELESTE)</p>
                         <p class="productos2__p">$ 2.850,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">NINA LUNA BLOSSOM (MANZANITA LILA)
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">NINA LUNA BLOSSOM (MANZANITA LILA)</p>
                         <p class="productos2__p">$ 2.850,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">NINA BELLA (MANZANITA VERDE)
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">NINA BELLA (MANZANITA VERDE)</p>
                         <p class="productos2__p">$ 2.850,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">SI 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">SI </p>
                         <p class="productos2__p">$ 2.850,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">LADY MILLON 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="..."> 
+                        <p class="producto2__li">LADY MILLON</p>
                         <p class="productos2__p">$ 2.850,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VERY IRRESISTIBLE 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">VERY IRRESISTIBLE</p> 
                         <p class="productos2__p">$ 2.700,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">FLOWER
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">FLOWER</p>
                         <p class="productos2__p">$ 2.700,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">HALLOWEEN 
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="..."> 
+                        <p class="producto2__li">HALLOWEEN</p>
                         <p class="productos2__p">$ 2.700,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">RICCI RICCI
+                    <li class="col-xl-4 col-md-6 text-center border border-4 li"><img src="..." class="img__originales" alt="...">
+                        <p class="producto2__li">RICCI RICCI</p>
                         <p class="productos2__p">$ 2.700,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
                 
                 </ul >
                 
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">Envases Comun</h4>
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">Envases Comun</h4>
                 <div class="animate_animate animate__bounceInUp">
                     <img src="../images/envase_comun_fem.jpg" alt="Envase Comun Femenino" class="img__perfumeo">
                 </div>
-            
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">212
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">212
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">212 SEXY
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">212 SEXY
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">212 VIP
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">212 VIP
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">212 Rose
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">212 Rose
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Acqua Di Gioia
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Acqua Di Gioia
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Amor Amor
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Amor Amor
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Angel
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Angel
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Ange ou Demon
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Ange ou Demon
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Armani Code
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Armani Code
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Black XS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Black XS
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Cabotine
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Cabotine
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Carolina Herrera
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Carolina Herrera
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">CH
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CH
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Chanel Nº5
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Chanel Nº5
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">CK One Unisex
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CK One Unisex
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Coco Mademoiselle
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Coco Mademoiselle
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Dolce & Gabbana
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Dolce & Gabbana
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Flowers
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Flowers
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Good Girl
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Good Girl
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Halloween
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Halloween
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Idole
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Idole
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">J. P. Gaultier
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">J. P. Gaultier
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Jadore
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Jadore
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Kenzo Amor
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Kenzo Amor
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">La Belle
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">La Belle
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">La Vida es Bella
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">La Vida es Bella
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Lady Millón
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Lady Millón
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Leau D Issey
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Leau D Issey
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Light Blue
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Light Blue
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Miss Dior Cherie
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Miss Dior Cherie
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Nina
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Nina
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Olymphea
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Olymphea
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Opium Black
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Opium Black
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Queen Of Seduction
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Queen Of Seduction
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Paula Amor
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Paula Amor
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Paloma Picasso
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Paloma Picasso
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Ralph
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Ralph
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Ricci Ricci
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Ricci Ricci
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">SI
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">SI
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Tommy Girl
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Tommy Girl
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">Very Irresistible
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">Very Irresistible
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
                 </ul >
                 <a href="#arriba">Arriba</a>
-                <h3 id="aeromatizantesAutomaticos" class="producto2__titulo animate_animate animate__bounceInUp">Aromatizantes Automaticos</h3>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">TE VERDE 
+                <h3 id="aeromatizantesAutomaticos" class="producto2__titulo animate_animate animate__bounceInUp text-center">Aromatizantes Automaticos</h3>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">TE VERDE 
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">UVA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">UVA
                         <p class="productos2__p">$ 390,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">PAPAYA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">PAPAYA
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">RICCI
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">RICCI
                         <p class="productos2__p" >$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">CHICLE
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CHICLE
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VAINILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VAINILLA
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">TASCANI
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">TASCANI
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">SANDIA PEPINO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">SANDIA PEPINO
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">FRESIAS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FRESIAS
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">JAZMIN
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">JAZMIN
                         <p class="productos2__p">$ 390,00 </p>
                     </li>
-                    <li class="producto2__li">MAGNOLIA VAINILLA
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
-                    </li>
-                    <li class="producto2__li">FRESH
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">MAGNOLIA VAINILLA
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">NARDO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FRESH
+                        <p class="productos2__p">$ 390,00 </p>
+                        <p class="productos2__p">Envase de 300 ml.</p>
+                    </li> 
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">NARDO
                         <p class="productos2__p">$ 390,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">DANIELS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">DANIELS
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">COCO VAINILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">COCO VAINILLA
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">CITRUS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CITRUS
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">DREAMS (OLYMPHEA)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">DREAMS (OLYMPHEA)
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">BAMBU
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BAMBU
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">BLACK LABEL
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BLACK LABEL
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">BEBE
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BEBE
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">BAMBINO (PETIT ENFANT)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BAMBINO (PETIT ENFANT)
                         <p class="productos2__p">$ 390,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">BALI
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BALI
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">FLORES BLANCAS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FLORES BLANCAS
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">LIMON
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LIMON
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">MANGO PAPAYA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">MANGO PAPAYA
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">ONE MILLON
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">ONE MILLON
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">CONIGLIO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CONIGLIO
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">KEN
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">KEN
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">GARDENIA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">GARDENIA
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">LAVANDA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LAVANDA
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">NEROLI ORQUIDEAS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">NEROLI ORQUIDEAS
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">OCEAN (MARINA)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">OCEAN (MARINA)
                         <p class="productos2__p">$ 390,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">MAQUINAS ANALOGICAS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">MAQUINAS ANALOGICAS
                         <p class="productos2__p">$ 1.100,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
                 </ul>
                 <a href="#arriba">Arriba</a>
-                <h3 id="aeromatizantesTextiles" class="producto2__titulo animate_animate animate__bounceInUp">Aeromatizantes Textiles</h3>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">UVA
+                <h3 id="aeromatizantesTextiles" class="producto2__titulo animate_animate animate__bounceInUp text-center">Aeromatizantes Textiles</h3>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">UVA
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">LIMON
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LIMON
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">TE DE LIMON
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">TE DE LIMON
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">TIKET (FLORAL)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">TIKET (FLORAL)
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">CONIGLIO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CONIGLIO
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">SUAVIDAD DE ALGODON
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">SUAVIDAD DE ALGODON
                         <p class="productos2__p">$ 450,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">COTTON FRESH (ROPA LIMPIA)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">COTTON FRESH (ROPA LIMPIA)
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">GARDENIA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">GARDENIA
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">MANGO GUARANA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">MANGO GUARANA
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">CK ONE
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CK ONE
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">FLOWER
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FLOWER
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">RALPHIE
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">RALPHIE
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VAINILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VAINILLA
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">COCO VAINILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">COCO VAINILLA
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">SANDIA PEPINO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">SANDIA PEPINO
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">TE VERDE
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">TE VERDE
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">OCEAN (MARINA)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">OCEAN (MARINA)
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">DANIELS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">DANIELS
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">TE VERDE
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">TE VERDE
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">BAMBU
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BAMBU
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">RICCI RICC
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">RICCI RICC
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">PAPAYA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">PAPAYA
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
                 </ul>
                 <a href="#arriba">Arriba</a>
                 
-                <h3 id="difusoresAmbientales" class="producto2__titulo animate_animate animate__bounceInUp">Difusores Ambientales</h3>
+                <h3 id="difusoresAmbientales" class="producto2__titulo animate_animate animate__bounceInUp text-center">Difusores Ambientales</h3>
                 <div class="animate_animate animate__bounceInUp">
                     <img src="../images/difusor.jpg" alt="Difusor" class="img__perfumeo">
                 </div>
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">Envases de Plastico</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">VAINILLA
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">Envases de Plastico</h4>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VAINILLA
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">LIMON
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LIMON
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">POMELO NARANJA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">POMELO NARANJA
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">MANGO GUARANA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">MANGO GUARANA
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">PERA DURAZNO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">PERA DURAZNO
                         <p class="productos2__p">$ 1.000,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">GARDENIA<br>$ 1.000,00
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">GARDENIA<br>$ 1.000,00
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">MIND (NARDO Y JAZMIN)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">MIND (NARDO Y JAZMIN)
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">PETALOS DE LOTO Y JAZMIN
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">PETALOS DE LOTO Y JAZMIN
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">ROSAS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">ROSAS
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">FANTASY (TUTTI FRUTTI)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FANTASY (TUTTI FRUTTI)
                         <p class="productos2__p">$ 1.000,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
                 </ul>
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">ENVASE DE VIDRIO 250 ML.</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">CITRUS
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">ENVASE DE VIDRIO 250 ML.</h4>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CITRUS
                         <p class="productos2__p">$ 1.150,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VAINILLA Y ROSAS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VAINILLA Y ROSAS
                         <p class="productos2__p">$ 1.150,00  </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">FRUTILLAS Y MORAS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FRUTILLAS Y MORAS
                         <p class="productos2__p">$ 1.150,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">COCO VAINILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">COCO VAINILLA
                         <p class="productos2__p">$ 1.150,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">FLOR DE AZAHAR
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FLOR DE AZAHAR
                         <p class="productos2__p">$ 1.150,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">BODY (SANDALO Y CEDRO)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BODY (SANDALO Y CEDRO)
                         <p class="productos2__p">$ 1.150,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">JENGIBRE Y LIMA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">JENGIBRE Y LIMA
                         <p class="productos2__p">$ 1.150,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">PITANGA Y VODKA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">PITANGA Y VODKA
                         <p class="productos2__p">$ 1.150,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">MADERA Y VAINILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">MADERA Y VAINILLA
                         <p class="productos2__p">$ 1.150,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
                 </ul>
                 <a href="#arriba">Arriba</a>
 
-                <h3 id="velas" class="producto2__titulo animate_animate animate__bounceInUp">Velas</h3>
+                <h3 id="velas" class="producto2__titulo animate_animate animate__bounceInUp text-center">Velas</h3>
                 
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">VELAS EN LATITAS PEQUEÑAS
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VELAS EN LATITAS PEQUEÑAS
                         <p class="productos2__p">$ 300,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VELAS EN LATITAS MEDIANAS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VELAS EN LATITAS MEDIANAS
                         <p class="productos2__p">$ 500,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VELAS EN VASO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VELAS EN VASO
                         <p class="productos2__p">$ 800,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VELA EN CARAMELERA CHICA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VELA EN CARAMELERA CHICA
                         <p class="productos2__p">$ 950,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VELA EN CARAMELERA GRANDE
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VELA EN CARAMELERA GRANDE
                         <p class="productos2__p">$ 1.500,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VELAS EN ENVASES RECICLADOS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VELAS EN ENVASES RECICLADOS
                         <p class="productos2__p">$ 650,00</p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VELAS HOY
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VELAS HOY
                         <p class="productos2__p">$ 1.200,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VELAS 7 CHAKRAS POR UNIDAD
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VELAS 7 CHAKRAS POR UNIDAD
                         <p class="productos2__p">$ 550,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
-                    <li class="producto2__li">VELAS DE NOCHE (12 UNIDADES)
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VELAS DE NOCHE (12 UNIDADES)
                         <p class="productos2__p">$ 220,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
                 </ul>
                 <a href="#arriba">Arriba</a>
 
-                <h3 id="sahumerios" class="producto2__titulo animate_animate animate__bounceInUp">Sahumerios</h3>
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">AROMANZA (Triple Empaste Extra Fuerte)</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">CANELA MISTICA
+                <h3 id="sahumerios" class="producto2__titulo animate_animate animate__bounceInUp text-center">Sahumerios</h3>
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">AROMANZA (Triple Empaste Extra Fuerte)</h4>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CANELA MISTICA
                         <p class="productos2__p">$ 300,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">CHANDAN
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CHANDAN
                         <p class="productos2__p">$ 300,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">GARDENIA Y FLORES BLANCAS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">GARDENIA Y FLORES BLANCAS
                         <p class="productos2__p">$ 300,00</p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">FRUTOS ROJOS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FRUTOS ROJOS
                         <p class="productos2__p">$ 300,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">RATMAHALA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">RATMAHALA
                         <p class="productos2__p">$ 300,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">NOCHE DE ENSUEÑO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">NOCHE DE ENSUEÑO
                         <p class="productos2__p">$ 300,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">BERRY KIDS
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BERRY KIDS
                         <p class="productos2__p">$ 300,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">REAL CHAMPA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">REAL CHAMPA
                         <p class="productos2__p">$ 300,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
                 </ul>
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">Simples</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">SUPER SANDALO
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">Simples</h4>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">SUPER SANDALO
                         <p class="productos2__p">$ 130,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">SANDALO MADERA Y VAINILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">SANDALO MADERA Y VAINILLA
                         <p class="productos2__p">$ 130,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">REAL CHAMPA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">REAL CHAMPA
                         <p class="productos2__p">$ 130,00</p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">LAVANDA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LAVANDA
                         <p class="productos2__p">$ 130,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">LAVANDA MENTA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LAVANDA MENTA
                         <p class="productos2__p">$ 130,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">MAGNOLIA VAINILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">MAGNOLIA VAINILLA
                         <p class="productos2__p">$ 130,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">BENJUI
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BENJUI
                         <p class="productos2__p">$ 130,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
-                    <li class="producto2__li">CANELA MANZANA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CANELA MANZANA
                         <p class="productos2__p">$ 130,00 </p>
                         <p class="productos2__p">X Unidades</p>
                     </li>
                 </ul>
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">HEM </h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">CHANDAN
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">HEM </h4>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CHANDAN
                         <p class="productos2__p">$ 100,00 </p>
                         <p class="productos2__p">12 Unidades</p>
                     </li>
-                    <li class="producto2__li">MUSK
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">MUSK
                         <p class="productos2__p">$ 100,00 </p>
                         <p class="productos2__p">12 Unidades</p>
                     </li>
                 </ul>
-                <h4 class="producto2__subtitulo">SREE VARI</h4>
-                <ul class="producto2__ul">
-                    <li class="producto2__li">SANDALO
+                <h4 class="producto2__subtitulo text-center">SREE VARI</h4>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">SANDALO
                         <p class="productos2__p">$ 90,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">COCO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">COCO
                         <p class="productos2__p">$ 90,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">CANELA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CANELA
                         <p class="productos2__p">$ 90,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">EUCALIPTO Y MENTA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">EUCALIPTO Y MENTA
                         <p class="productos2__p">$ 90,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">FENG SHUI
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FENG SHUI
                         <p class="productos2__p">$ 90,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">LIMON Y LIMA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LIMON Y LIMA
                         <p class="productos2__p">$ 90,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">7 PODERES 
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">7 PODERES 
                         <p class="productos2__p">$ 90,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">LAKXMI
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LAKXMI
                         <p class="productos2__p">$ 110,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">SHIVAA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">SHIVAA
                         <p class="productos2__p">$ 110,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">GOLAPA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">GOLAPA
                         <p class="productos2__p">$ 110,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">BUDDAH
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">BUDDAH
                         <p class="productos2__p">$ 110,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
                 </ul>
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">ILUMINARTE (Extra Fuerte)</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">SANDALO
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">ILUMINARTE (Extra Fuerte)</h4>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">SANDALO
                         <p class="productos2__p">$ 170,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">JAZMIN
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">JAZMIN
                         <p class="productos2__p">$ 170,00</p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">ROSA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">ROSA
                         <p class="productos2__p">$ 170,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">VAINILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">VAINILLA
                         <p class="productos2__p">$ 170,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">CHANDAN
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">CHANDAN
                         <p class="productos2__p">$ 170,00</p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">PALO SANTO 
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">PALO SANTO 
                         <p class="productos2__p">$ 170,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">LAVANDA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LAVANDA
                         <p class="productos2__p">$ 170,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">FRUTILLA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">FRUTILLA
                         <p class="productos2__p">$ 170,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">LIMON
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">LIMON
                         <p class="productos2__p">$ 170,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
                 </ul>
-                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp">SAGRADA MADRE</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp">
-                    <li class="producto2__li">RUDA ROMERO INCIENSO
+                <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">SAGRADA MADRE</h4>
+                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">RUDA ROMERO INCIENSO
                         <p class="productos2__p">$ 220,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">YAGRA
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">YAGRA
                         <p class="productos2__p">$ 220,00 </p>  
                         <p class="productos2__p">20 Unidades</p>
                     </li>
-                    <li class="producto2__li">INCIENSO
+                    <li class="producto2__li col-xl-4 col-md-6 text-center border border-4 li">INCIENSO
                         <p class="productos2__p">$ 220,00 </p>
                         <p class="productos2__p">20 Unidades</p>
                     </li>
@@ -1064,20 +1146,20 @@
             
             </section> <!--Fin de Seccion del Listado-->
         </main> <!--Fin del Main-->
-        <div class="div__chat">
-            <i class="fa-brands fa-whatsapp"></i></button>
-        </div>
-    </div>
-    <footer class="footer"> <!--Inicio del Footer-->
-        <a href="#"><img class="footer__img" src="../images/logooriginal.png" alt="Logo"></a>
-        <h3 class="footer__h3">Siguenos en Nuestras Redes</h3>
-        <ul class="footer__ul">
-            <li class="footer__li"><a class="footer__a" href="https://www.facebook.com/mardefraganciasbs" target="_blank"><i class="fa-brands fa-facebook icon"></i>Facebook</a>
-            </li>
-            <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-instagram icon"></i>Instragram</a></li>
-        </ul>
         
-    </footer> <!--Fin del Footer-->
-<link rel="stylesheet" href="../js/bootstrap.bundle.min.js">   
+    
+        <footer class="footer"> <!--Inicio del Footer-->
+            <a href="#"><img class="footer__img" src="../images/logooriginal.png" alt="Logo"></a>
+            <h3 class="footer__h3">Siguenos en Nuestras Redes</h3>
+            <ul class="footer__ul">
+                <li class="footer__li"><a class="footer__a" href="https://www.facebook.com/mardefraganciasbs" target="_blank"><i class="fa-brands fa-facebook icon"></i>Facebook</a>
+                </li>
+                <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-instagram icon"></i>Instragram</a></li>
+                <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-whatsapp icon"></i>Whatssap</a></li>
+            </ul>
+        
+        </footer> <!--Fin del Footer-->
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
 </body>  
 </html>  

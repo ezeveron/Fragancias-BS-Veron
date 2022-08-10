@@ -9,58 +9,92 @@
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/estilo.css">
-    <link rel="stylesheet" href="../css1/bootstrap-grid.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Quien Soy</title>
     
 </head>
 <body>
     <div class="contenedor">
 
-        <header> <!--Inicio del header-->
-            <h1 class="animate__animate animate__flash"> Mar de Fragancias BS </h1>
+        <header class="header text-center" > <!--Inicio del header--> 
+            <h1 class="animate__animate animate__flash "><a href="#"><img class="img__logo" src="../images/logooriginal.png" alt="Logo"></a> Mar de Fragancias BS </h1>
+        
         </header>
-        <header class="nav">
-                 
-            <nav><!--Inicio del Menu de Navegacion-->
-                <a href="../index.html"><img class="img__logo" src="../images/logooriginal.png" alt="Logo"></a>
-                <ul class="navegador__ul">
-                    <li class="navegador__li"><a href="../index.html" class="navegador__a">Incio</a></li>
-                    <li class="navegador__li"><a href="./productos.html" class="navegador__a">Productos</a></li>
-                    <li class="navegador__li"><a href="#" class="navegador__a">Quien Soy</a></li>
-                    <li class="navegador__li"><a href="./ofertas.html" class="navegador__a">Ofertas</a></li>
-                    <li class="navegador__li"><a href="./galeria.html" class="navegador__a">Galeria</a></li>
-                    <li class="navegador__li"><a href="./contacto.html" class="navegador__a">Contacto</a></li>
-                </ul>
-            </nav> <!--Fin del Menu de Navegacion-->
+        <header class="nav sticky-top">
+            
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid flex-column navegacion">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Quien Soy</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/ofertas.html">Ofertas</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/contacto.html">Contactos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+           
+
         </header> <!--Fin del header-->
 
-        <main class="animate_animate animate__fadeInDown"> <!--Inicio del Main-->
+        <main class="animate_animate animate__fadeInDown container"> <!--Inicio del Main-->
             
-            <h2 class="animate_animate animate__bounceInRight">Quien Soy</h2>
+            <h2 class="animate_animate animate__bounceInRight text-center">Quien Soy</h2>
             
-            <section class="quien__soy" > <!--Inicio de la Seccion Quien Soy-->
+            <section class="quien__soy flex-column" > <!--Inicio de la Seccion Quien Soy-->
                 
-                <p class="parrafo__quiensoy">Hola! Mi nombre es Belen y soy la persona detrás de Mar de Fragancias BS. Fragancia BS es un emprendimiento realizado por una mujer ansiosa curiosa y apasionada por la vida y nuevas experiencias.</p>
-                <p class="parrafo__quiensoy">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur doloremque aut pariatur unde, dolor fuga quis quia! Amet, impedit incidunt ut culpa minus sed harum libero beatae voluptatum assumenda id!</p>
-                <p class="parrafo__quiensoy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum numquam, libero mollitia ipsa obcaecati explicabo soluta, recusandae harum qui atque repudiandae deleniti dicta ullam reiciendis enim perferendis aliquid nulla animi.</p>
-                <img src="../images/quien_soy.jpg" alt="Productos en Ferias" class="img__quiensoy">
+                <p class="parrafo__quiensoy text-center">Hola! Mi nombre es Belen y soy la persona detrás de Mar de Fragancias BS. Fragancia BS es un emprendimiento realizado por una mujer ansiosa curiosa y apasionada por la vida y nuevas experiencias.</p>
+                <p class="parrafo__quiensoy text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur doloremque aut pariatur unde, dolor fuga quis quia! Amet, impedit incidunt ut culpa minus sed harum libero beatae voluptatum assumenda id!</p>
+                <p class="parrafo__quiensoy text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum numquam, libero mollitia ipsa obcaecati explicabo soluta, recusandae harum qui atque repudiandae deleniti dicta ullam reiciendis enim perferendis aliquid nulla animi.</p>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../images/difusor.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../images/quien_soy.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../images/envase.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
                 
             </section> <!--Fin de la Seccion Quien Soy-->
         </main> <!--Fin del Main-->
-        <div class="div__chat">
-            <i class="fa-brands fa-whatsapp"></i></button>
-        </div>
-    </div>
-    <footer class="footer"> <!--Inicio del Footer-->
-        <a href="#"><img class="footer__img" src="../images/logooriginal.png" alt="Logo"></a>
-        <h3 class="footer__h3">Siguenos en Nuestras Redes</h3>
-        <ul class="footer__ul">
-            <li class="footer__li"><a class="footer__a" href="https://www.facebook.com/mardefraganciasbs" target="_blank"><i class="fa-brands fa-facebook icon"></i>Facebook</a>
-            </li>
-            <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-instagram icon"></i>Instragram</a></li>
-        </ul>
         
-    </footer> <!--Fin del Footer-->
-<link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+    
+        <footer class="footer"> <!--Inicio del Footer-->
+            <a href="#"><img class="footer__img" src="../images/logooriginal.png" alt="Logo"></a>
+            <h3 class="footer__h3">Siguenos en Nuestras Redes</h3>
+            <ul class="footer__ul">
+                <li class="footer__li"><a class="footer__a" href="https://www.facebook.com/mardefraganciasbs" target="_blank"><i class="fa-brands fa-facebook icon"></i>Facebook</a>
+                </li>
+                <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-instagram icon"></i>Instragram</a></li>
+                <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-whatsapp icon"></i>Whatssap</a></li>
+            </ul>
+        
+        </footer> <!--Fin del Footer-->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 </body>    
 </html>

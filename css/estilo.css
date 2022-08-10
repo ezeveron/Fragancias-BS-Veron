@@ -34,24 +34,19 @@ footer{
 header{
     background-color: rgb(42, 134, 88);    
 }
+
+
 /*titulo header*/
+
 h1{
     font-size:2rem;
     color: rgba(237, 231, 227, 1);
     font-family: 'Poppins', sans-serif;
-    margin: 1%;
-    margin-left: 35%; 
+    margin-top: 2%;
+    
 }
-
 /*navegador header*/
-.nav{  
-   display: fixed; 
-   position: sticky;
-   top: 0%;
-   z-index: 10; 
-   font-size: 1.3rem;
-   background-color: rgb(42, 134, 88);
-}
+
 .animate__animate.animate__flash{
     animation-duration: 5S;   
 }
@@ -60,54 +55,24 @@ h1{
 }
 /*imagen header*/
 .img__logo{
-    width: 85%;
-    margin: 5%;   
-}
-.navegado__ul{
-    display: flex;
-    
+    width: 8%; 
+    margin-top: 0.2%;
 }
 /*lista navegacion header*/
-.navegador__li{
+nav{
+    margin-top: 45%;
+    position: fixed;
     display: flex;
-    justify-content: center;
-    border-style: double;
-    text-decoration: none;
-    list-style: none;
-    margin-top: 20%;
-    
-}
-/*lista navegacion header*/
-.navegador__a{
-    font-size: 1,5rem;
-    text-decoration: none;
-    color:rgb(255, 255, 255); 
-    transition: font-size 2s;
-}
-.navegador__a:hover{
-    font-size: 2rem;
-}   
-.section{
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    grid-template-columns: 1.2fr 0.8fr;
-    margin: 1%;
+    flex-direction: column;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 134, 88);
 }
 /* titulo main index*/
-.index{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;  
-}
-.img__inicio{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
 
 h2{
     font-style: normal;
@@ -115,19 +80,20 @@ h2{
     font-family: 'Poppins', sans-serif ;
     color: rgb(42, 134, 88);
     text-decoration: underline;
-    margin-top: 1%;
-    margin-left: 36%;  
+    
+   
 }
 /*subtitulos main index*/
 .h3__inicio{
     font-family: 'Poppins', sans-serif ;
     color: rgb(42, 134, 88);
-    font-size: 1rem; 
+    font-size: 1rem;
+    font-weight: bolder; 
 }
 /*parrafo main index*/
 .parrafo__inicio{
     font-family:'Poppins', sans-serif ;
-    font-size: 1rem;
+    font-size: 0.85rem;
     color: rgb(42, 134, 88);     
 }
 
@@ -137,21 +103,23 @@ footer{
 }
 /*titulo footer*/
 .footer__h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
     color: rgb(206, 216, 212);
     font-family: 'Roboto', sans-serif;
     margin-left: 40%;
+    margin-top: 0.5%;
 }
 /* imagen footer*/
 .footer__img{
     position: absolute;
-    margin: 5px;
+    margin-top: 1%;
     margin-left: 400px;
-    width: 5%;
-    height: 7%;
+    width: 4%;
+    height: 8%;
 }
 .footer__ul{
-    margin-left: 40%;
+    margin-left: 32%;
 }
 /*lista footer*/
 .footer__li{
@@ -168,24 +136,14 @@ footer{
     font-size: 1rem;  
     text-decoration: none; 
 }
-
-/*div chat*/
-.div__chat{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    height: 3.1rem;
-    width: 3.1rem;
-    background-color:rgb(42, 134, 88) ;    
-}
 /*primer seccion producto*/
 .producto{
     font-size: 0.5rem;
     font-family: 'Poppins', sans-serif ;
     color:rgb(89, 199, 131);
     text-decoration: none;
-    margin: 2%;  
 }
+
 /*primer lista de producto*/
 .producto__li{
     display: inline-block; 
@@ -208,33 +166,22 @@ footer{
     font-weight: bold;
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif ;
-    margin-left: 20%;
-    margin-top: 2%;
-    display: flex;
+    margin-top: 2%;  
 }
 /*genero perfumes*/
 .producto2__subtitulo{
    color: rgb(71, 95, 76) ;
    font-family: 'Poppins', sans-serif ;
-   margin-left: 15%;
+   font-size: 1.1rem;
    margin-top: 2%;
    font-weight: bold;
-}
-.producto2__ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
 }
 /*producto*/
 .producto2__li{
     color: rgb(35, 161, 56);
     font-family: 'Poppins', sans-serif ;
     font-weight: bold;
-    flex: 33%;
-    text-align: center;
-    
-    
+    text-align: center;    
 }
 /*precio producto*/
 .productos2__p{
@@ -243,8 +190,8 @@ footer{
     font-weight: normal;   
 }
 .img__perfumeof{ 
-  width: 40%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   margin-left: 80%;
 }
 .img__perfumeo{ 
@@ -254,18 +201,19 @@ footer{
 }
 .img__originales{
     width: 50%;
-    height: 50%;
+    height: 60%;
+    transition: 1s;
+    
+    
 }
-.quien__soy{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 2%;
-    text-align: center;
+.img__originales:hover{
+    transform: scale(1.2);
 }
+.galeria_img:hover{
+    transform: scale(1.2);
+    ;
+}
+
 /*parafo quien soy*/
 .parrafo__quiensoy{
     font-family:'Poppins', sans-serif ;
@@ -288,13 +236,15 @@ table,th{
     font-size: 1.5rem;
 }
 /*imagenes de ofertas*/
+
 .img__ofertas{
-    position: relative;
-    width: 250px;
-    height: 250px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    float: right;  
+    
+    width: 20%;
+    height: 70%; 
+     
+}
+.tarjeta{
+    margin: 2%;
 }
 .section__galeria{
     padding-bottom : 1%;
@@ -363,14 +313,14 @@ form{
     font-size: 1rem;
     color:rgb(42, 134, 88) ;
 }
-.div__ifrem{
-    width: 45%;
-    margin-left: 2%;
-}
+
 
 .icon{
     font-size: 1.5rem;
     animation: float 4s ease-in-out infinite
+}
+.fa-whatsapp{
+    animation-delay: 1.5s;
 }
 .fa-facebook{
     animation-delay: 0.5s;
@@ -389,14 +339,9 @@ form{
         transform: translateX(0);
     }
 }
-.fa-whatsapp{
-    color:white;
-    font-size: 3rem;
-    margin-left: 0.2rem;
-}
 
 .parrafo__contacto{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .animate_animate.animate__backInDown{
     animation-duration: 3s;
@@ -410,6 +355,9 @@ form{
 .animate_animate.animate__fadeInDown{
     animation-duration: 2s;
 }
+.animate_animate.animate__fadeInDown{
+    animation-duration: 2s;
+}
 
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
@@ -417,28 +365,20 @@ form{
         display: flex; 
         flex-direction: column;   
     }
-    .img__logo{
-        width: 20%;
+    nav{
+        margin-top: 0%;
     }
-    
-    .navegador__a{
-        font-size: 1rem;
+    .img__logo{
+        width: 10%;
     }
     h1{
-        font-size: 1.5rem;
-        margin-left: 6%;
+        font-size: 0.8rem;
+       
     }
     h2{
         font-size: 1.3rem;
-        margin-left: 16%;
+        
     }
-    .section{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-content: center;
-    }
-    
     .h3__inicio{
         font-size: 1rem;
     }
@@ -452,13 +392,13 @@ form{
     }
     .footer__img{
         position: absolute;
-        margin: 1%;
+        margin-top: 1%;
         margin-left: 5%;
-        width: 5%;
-        height: 5%;
+        width: 6%;
+        height: 6%;
     }
     .footer__ul{
-        margin-left: 30%;
+        margin-left: 12%;
     }
     .footer__li{
         
@@ -470,19 +410,8 @@ form{
         font-size: 0.8rem;  
         text-decoration: none;
     }  
-    .div__chat{
-        position: fixed;
-        top: 50%;
-        left: 10px;
-        height: 1rem;
-        width: 1rem;    
-    }
     .icon{
         font-size: 0.8rem;
-    }
-    .fa-whatsapp{
-        font-size: 0.8rem;
-        margin-left: 0.2rem;
     }
     .producto2__li{
         flex: 50%;
@@ -533,23 +462,22 @@ form{
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .contenedor{
-        display: grid; 
-        grid-template-columns: 15% 85%;
+        display: flex; 
+        flex-direction: column; 
     }
-    .nav{
-        font-size: 1rem;
-        
+    nav{
+        margin-top: 0%;
+        font-size: 1.2rem;
     }
-    .navegador__a{
-        font-size: 1.5rem;
+    .img__logo{
+        width: 15%;
     }
     h1{
         font-size: 2rem;
-        margin-left: 20%;
+        
     }
     h2{
         font-size: 1.8rem;
-        margin-left: 25%;
     }
     .section{
         display: grid;
@@ -578,7 +506,7 @@ form{
         height: 6%;
     }
     .footer__ul{
-        margin-left: 30%;
+        margin-left: 15%;
     }
     .footer__li{
         
@@ -590,19 +518,10 @@ form{
         font-size: 1.5rem;  
         text-decoration: none;
     }  
-    .div__chat{
-        position: fixed;
-        top: 50%;
-        left: 10px;
-        height: 2rem;
-        width: 2rem;    
-    }
+       
+    
     .icon{
         font-size: 1.2rem;
-    }
-    .fa-whatsapp{
-        font-size: 2rem;
-        margin-left: 2rem;
     }
     .producto__li{
         display: block;

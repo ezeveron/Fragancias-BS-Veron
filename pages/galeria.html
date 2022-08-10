@@ -8,58 +8,81 @@
     <link rel="stylesheet" href="../images/fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/estilo.css">
-    <link rel="stylesheet" href="../css1/bootstrap-grid.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Galeria</title>
     
 </head>
 <body>
     <div class="contenedor">
 
-        <header> <!--Inicio del Header-->
-            <h1 class="animate__animate animate__flash"> Mar de Fragancias BS </h1>
+        <header class="header text-center" > <!--Inicio del header--> 
+            <h1 class="animate__animate animate__flash "><a href="#"><img class="img__logo" src="../images/logooriginal.png" alt="Logo"></a> Mar de Fragancias BS </h1>
+        
         </header>
-        <header class="nav">    
-            <nav><!--Inicio del Menu de Navegacion-->
-                <a href="../index.html"><img class="img__logo" src="../images/logooriginal.png" alt="Logo"></a> 
-                <ul class="navegador__ul">
-                    <li class="navegador__li"><a href="../index.html" class="navegador__a">Incio</a></li>
-                    <li class="navegador__li"><a href="./productos.html" class="navegador__a">Productos</a></li>
-                    <li class="navegador__li"><a href="./quiensoy.html" class="navegador__a">Quien Soy</a></li>
-                    <li class="navegador__li"><a href="./ofertas.html" class="navegador__a">Ofertas</a></li>
-                    <li class="navegador__li"><a href="#" class="navegador__a">Galeria</a></li>
-                    <li class="navegador__li"><a href="./contacto.html" class="navegador__a">Contacto</a></li>
-                </ul>
-            </nav><!--Fin del Menu de Navegacion-->
-        </header> <!--Fin del Header-->
+        <header class="nav sticky-top">
+            
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid flex-column navegacion">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/quiensoy.html">Quien Soy</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/ofertas.html">Ofertas</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../pages/contacto.html">Contactos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+           
+
+        </header> <!--Fin del header-->
 
         <main> <!--Inicio del Main Galeria-->
 
-            <h2 class="animate_animate animate__bounceInRight">Galeria</h2>
-            <section class="section__galeria">
-                <figure class="galeria_imagenes galeria_imagenes--g1"><img  src="../images/perfume__wio.jpeg" class="galeria_img" alt="Imagen1" ></figure>
-                <figure class="galeria_imagenes galeria_imagenes--g2"><img src="../images/envase.jpg"class="galeria_img" alt="Imagen2" ></figure>
-                <figure class="galeria_imagenes galeria_imagenes--g3"><img src="../images/original.jpg" class="galeria_img" alt="Imagen3" ></figure>
-                <figure class="galeria_imagenes galeria_imagenes--g4"><img src="../images/velas1.jpg" class="galeria_img" alt="Imagen4" ></figure>
-                <figure class="galeria_imagenes galeria_imagenes--g5"><img src="../images/velas3.jpg" class="galeria_img" alt="Imagen5" ></figure>
-                <figure class="galeria_imagenes galeria_imagenes--g6"><img src="../images/difusor.jpg" class="galeria_img" alt="Difusores" ></figure>
-                <figure class="galeria_imagenes galeria_imagenes--g7"><img src="../images/invictomas.jpeg" class="galeria_img" alt=""></figure>
-                <figure class="galeria_imagenes galeria_imagenes--g8"><img src="../images/envase_comun_fem.jpg" class="galeria_img" alt=""></figure>
+            <h2 class="animate_animate animate__bounceInRight text-center">Galeria</h2>
+            <section class="section__galeria animate__animate animate__fadeInDown">
+                <figure class="galeria_imagenes galeria_imagenes--g1"><img  src="../images/perfume__wio.jpeg" class="galeria_img  animate__animate animate__fadeInDown" alt="Imagen1" ></figure>
+                <figure class="galeria_imagenes galeria_imagenes--g2"><img src="../images/envase.jpg"class="galeria_img  animate__animate animate__fadeInDown" alt="Imagen2" ></figure>
+                <figure class="galeria_imagenes galeria_imagenes--g3"><img src="../images/original.jpg" class="galeria_img  animate__animate animate__fadeInDown" alt="Imagen3" ></figure>
+                <figure class="galeria_imagenes galeria_imagenes--g4"><img src="../images/velas1.jpg" class="galeria_img  animate__animate animate__fadeInDown" alt="Imagen4" ></figure>
+                <figure class="galeria_imagenes galeria_imagenes--g5"><img src="../images/velas3.jpg" class="galeria_img  animate__animate animate__fadeInDown" alt="Imagen5" ></figure>
+                <figure class="galeria_imagenes galeria_imagenes--g6"><img src="../images/difusor.jpg" class="galeria_img  animate__animate animate__fadeInDown" alt="Difusores" ></figure>
+                <figure class="galeria_imagenes galeria_imagenes--g7"><img src="../images/invictomas.jpeg" class="galeria_img  animate__animate animate__fadeInDown" alt=""></figure>
+                <figure class="galeria_imagenes galeria_imagenes--g8"><img src="../images/envase_comun_fem.jpg" class="galeria_img  animate__animate animate__fadeInDown" alt=""></figure>
             </section>
         </main> <!--Fin del Main Galeria-->
-        <div class="div__chat">
-            <i class="fa-brands fa-whatsapp"></i>
-        </div>
-    </div>
-    <footer class="footer"> <!--Inicio del Footer-->
-        <a href="#"><img class="footer__img" src="../images/logooriginal.png" alt="Logo"></a>
-        <h3 class="footer__h3">Siguenos en Nuestras Redes</h3>
-        <ul class="footer__ul">
-        <li class="footer__li"><a class="footer__a" href="https://www.facebook.com/mardefraganciasbs" target="_blank"><i class="fa-brands fa-facebook icon"></i>Facebook</a>
-        </li>
-        <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-instagram icon"></i>Instragram</a></li>
-    </ul>
         
-    </footer> <!--Fin del Footer-->
-<link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+    
+        <footer class="footer"> <!--Inicio del Footer-->
+            <a href="#"><img class="footer__img" src="../images/logooriginal.png" alt="Logo"></a>
+            <h3 class="footer__h3">Siguenos en Nuestras Redes</h3>
+            <ul class="footer__ul">
+                <li class="footer__li"><a class="footer__a" href="https://www.facebook.com/mardefraganciasbs" target="_blank"><i class="fa-brands fa-facebook icon"></i>Facebook</a>
+                </li>
+                <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-instagram icon"></i>Instragram</a></li>
+                <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-whatsapp icon"></i>Whatssap</a></li>
+            </ul>
+        
+        </footer> <!--Fin del Footer-->
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>    
