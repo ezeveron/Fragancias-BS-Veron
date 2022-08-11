@@ -221,20 +221,7 @@ footer{
     color: rgb(42, 134, 88);  
     
 }
-/*tablas de ofertas*/
-table,td{
-    border: 1px solid green;
-    color:  rgb(42, 134, 88);
-    padding: 20px;
-    margin: auto;
-    font-size: 1rem;
-    font-weight: bold;
-}
-/*tablas de ofertas*/
-table,th{
-    border: 1px solid green;
-    font-size: 1.5rem;
-}
+
 /*imagenes de ofertas*/
 
 .img__ofertas{
@@ -358,6 +345,11 @@ form{
 .animate_animate.animate__fadeInDown{
     animation-duration: 2s;
 }
+.fa-solid{
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
@@ -485,6 +477,7 @@ form{
         align-items: center;
         justify-content: center; 
     }
+    
     
     
     .h3__inicio{
