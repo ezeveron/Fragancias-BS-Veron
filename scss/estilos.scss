@@ -1,7 +1,19 @@
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
 
+$color-fondo:#2a8658;
+$font-size-titulo:2rem;
+$color-titulo: rgba(237, 231, 227, 1);
+$color-footer-size:#ced8d4;
+$font-size-nav:1.1rem;
+$font-size-footer:1.1rem;
+$font-size-subtitulo:0.95rem;
+$font-family-titulos:'Poppins', sans-serif;
+$font-family-parrafo:'Roboto', sans-serif;
 
 *{
     margin: 0;
@@ -32,18 +44,17 @@ footer{
 }
 /*inicio hedear*/
 header{
-    background-color: rgb(42, 134, 88);    
+    background-color: $color-fondo;  
 }
 
 
 /*titulo header*/
 
 h1{
-    font-size:2rem;
-    color: rgba(237, 231, 227, 1);
-    font-family: 'Poppins', sans-serif;
-    margin-top: 2%;
-    
+    font-size:$font-size-titulo;
+    color: $color-titulo;
+    font-family: $font-family-titulos;
+    margin-top: 2%;   
 }
 /*navegador header*/
 
@@ -59,83 +70,87 @@ h1{
     margin-top: 0.2%;
 }
 /*lista navegacion header*/
-nav{
-    margin-top: 45%;
+.navegador{
+    background-color: $color-fondo;
     position: fixed;
     display: flex;
     flex-direction: column;
     position: sticky;
     top: 0%;
     z-index: 10;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
-    background-color: rgb(42, 134, 88);
+    .navegador__li{
+        font-size: 1.1rem;
+        font-weight: bolder;
+        color: rgb(255, 255, 255);
+        .navegador__a{
+            font-size: $font-size-nav;
+            font-weight: bolder;
+            color:rgb(255, 255, 255);
+                    }
+                }
 }
 /* titulo main index*/
 
 h2{
     font-style: normal;
-    font-size: 2rem;
-    font-family: 'Poppins', sans-serif ;
-    color: rgb(42, 134, 88);
+    font-size: $color-titulo;
+    font-family: $font-size-titulo ;
+    color: $color-fondo;
     text-decoration: underline;
-    
-   
 }
 /*subtitulos main index*/
 .h3__inicio{
-    font-family: 'Poppins', sans-serif ;
-    color: rgb(42, 134, 88);
-    font-size: 1rem;
+    font-family: $font-family-titulos;
+    color:$color-fondo;
+    font-size: $font-size-subtitulo;
     font-weight: bolder; 
 }
 /*parrafo main index*/
 .parrafo__inicio{
-    font-family:'Poppins', sans-serif ;
-    font-size: 0.85rem;
+    font-family:$font-family-parrafo ;
+    font-size: $font-size-subtitulo;
     color: rgb(42, 134, 88);     
 }
 
 /*footer*/
-footer{
-    background-color: rgb(42, 134, 88);
+.footer{
+    background-color:$color-fondo;
+    .footer__ul{
+        list-style: none;
+        margin-left: 32%;
+        text-decoration: none;
+        .footer__li{
+            margin-left: 3%;
+            display: inline-block;
+            text-decoration: none;
+            .footer__a{
+                color: $color-footer-size;
+                font-family: $font-family-parrafo;
+                font-size: $font-size-footer;
+            }
+        }
+    }
 }
 /*titulo footer*/
 .footer__h3{
-    font-size: 1.2rem;
+    font-size: $font-size-footer;
+    font-family: $font-family-parrafo;
+    color: $color-footer-size;
     font-weight: bolder;
-    color: rgb(206, 216, 212);
-    font-family: 'Roboto', sans-serif;
-    margin-left: 40%;
-    margin-top: 0.5%;
+    margin-left: 43%;
+    margin-top: 1%;
+    
 }
 /* imagen footer*/
 .footer__img{
     position: absolute;
     margin-top: 1%;
-    margin-left: 400px;
-    width: 4%;
-    height: 8%;
+    margin-left: 28%;
+    width: 6%;
+    height: 10%;
 }
-.footer__ul{
-    margin-left: 32%;
-}
-/*lista footer*/
-.footer__li{
-    margin-left: 3%;
-    display: inline-block;
-    list-style: none;
-    text-decoration: none;
-    
-}
-/*lista footer*/
-.footer__a{
-    color: rgb(206, 216, 212);
-    font-family:'Poppins', sans-serif ;
-    font-size: 1rem;  
-    text-decoration: none; 
-}
+
+
 /*primer seccion producto*/
 .producto{
     font-size: 0.5rem;
