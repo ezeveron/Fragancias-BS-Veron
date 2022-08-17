@@ -47,22 +47,24 @@ h1 {
   margin-top: 0.2%; }
 
 /*lista navegacion header*/
-.navegador {
-  background-color: #2a8658;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  position: sticky;
-  top: 0%;
-  z-index: 10; }
-  .navegador .navegador__li {
-    font-size: 1.1rem;
-    font-weight: bolder;
-    color: white; }
-    .navegador .navegador__li .navegador__a {
+.nav {
+  background-color: #2a8658; }
+  .nav .navegador {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0; }
+    .nav .navegador .navegador__li {
       font-size: 1.1rem;
       font-weight: bolder;
       color: white; }
+      .nav .navegador .navegador__li .navegador__a {
+        font-size: 1.1rem;
+        font-weight: bolder;
+        color: white; }
+        .nav .navegador .navegador__li .navegador__a:hover {
+          transform: scale(1.2); }
 
 /* titulo main index*/
 h2 {
@@ -89,7 +91,7 @@ h2 {
 .footer {
   background-color: #2a8658; }
   .footer .footer__ul {
-    list-style: none;
+    list-style-type: none;
     margin-left: 32%;
     text-decoration: none; }
     .footer .footer__ul .footer__li {
@@ -97,6 +99,7 @@ h2 {
       display: inline-block;
       text-decoration: none; }
       .footer .footer__ul .footer__li .footer__a {
+        text-decoration: none;
         color: #ced8d4;
         font-family: "Roboto", sans-serif;
         font-size: 1.1rem; }
