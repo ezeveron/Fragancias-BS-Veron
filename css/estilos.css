@@ -1,9 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+.contenedor {
+  display: grid;
+  grid-template-areas: "nav header " "nav main " "footer footer";
+  grid-row: 0.25fr 1.5fr 0.25;
+  grid-template-columns: 10% auto; }
+
+.header {
+  grid-area: header; }
+
+.nav {
+  grid-area: nav; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
 
 .contenedor {
   display: grid;
@@ -57,15 +73,12 @@ h1 {
     position: fixed;
     position: sticky;
     top: 0; }
-    .nav .navegador .navegador__li {
+    .nav .navegador .navegador__li, .nav .navegador .navegador__li .navegador__a {
       font-size: 1.1rem;
       font-weight: bolder;
       color: white; }
-      .nav .navegador .navegador__li .navegador__a {
-        font-weight: bolder;
-        color: white; }
-        .nav .navegador .navegador__li .navegador__a:hover {
-          transform: scale(1.2); }
+      .nav .navegador .navegador__li .navegador__a:hover {
+        transform: scale(1.2); }
 
 /* titulo main index*/
 h2 {
@@ -83,7 +96,7 @@ h2 {
   font-weight: bolder; }
 
 /*parrafo main index*/
-.parrafo__inicio {
+.parrafo__inicio, .parrafo__quiensoy, .parrafo__contacto {
   font-family: "Roboto", sans-serif;
   font-size: 0.95rem;
   color: #2a8658; }
@@ -159,7 +172,7 @@ h2 {
   font-weight: bold; }
 
 /*producto*/
-.producto2__li {
+.producto2__li, .productos2__p {
   color: #23a138;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -167,8 +180,6 @@ h2 {
 
 /*precio producto*/
 .productos2__p {
-  color: #23a138;
-  font-family: "Roboto", sans-serif;
   font-weight: normal; }
 
 .img__perfumeof {
@@ -194,9 +205,7 @@ h2 {
 
 /*parafo quien soy*/
 .parrafo__quiensoy {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-  color: #2a8658; }
+  font-size: 1rem; }
 
 /*imagenes de ofertas*/
 .img__ofertas {
@@ -250,7 +259,7 @@ h2 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2%; }
+  margin: 5%; }
 
 /*formulario contacto*/
 form {
@@ -261,10 +270,6 @@ form {
   margin-left: 20%; }
 
 /*parrafo ifrem contacto*/
-.parrafo__contacto {
-  font-size: 1rem;
-  color: #2a8658; }
-
 .icon {
   font-size: 1.5rem;
   animation: float 4s ease-in-out infinite; }
@@ -322,7 +327,7 @@ form {
     font-size: 1.3rem; }
   .h3__inicio {
     font-size: 1rem; }
-  .parrafo__inicio {
+  .parrafo__inicio, .parrafo__quiensoy, .parrafo__contacto {
     font-size: 0.8rem; }
   .footer__h3 {
     font-size: 1.2rem;
@@ -344,7 +349,7 @@ form {
     text-decoration: none; }
   .icon {
     font-size: 0.8rem; }
-  .producto2__li {
+  .producto2__li, .productos2__p {
     flex: 50%; }
   .producto__ul {
     display: flex;
@@ -397,7 +402,7 @@ form {
     justify-content: center; }
   .h3__inicio {
     font-size: 1.5rem; }
-  .parrafo__inicio {
+  .parrafo__inicio, .parrafo__quiensoy, .parrafo__contacto {
     font-size: 1.3rem; }
   .footer__h3 {
     font-size: 1.8rem;

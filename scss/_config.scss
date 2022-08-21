@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+        "nav header "
+        "nav main "
+        "footer footer";
+        grid-row: 0.25fr 1.5fr 0.25 ;
+        grid-template-columns: 10% auto;
+
+}
+.header{
+    grid-area: header;    
+}
+.nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}

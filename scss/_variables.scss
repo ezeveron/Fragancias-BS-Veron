@@ -23,3 +23,8 @@ $fuentes:(
     12 : 1.8rem
 
 );
+@mixin display-aling-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
