@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,25 +23,6 @@ main {
 footer {
   grid-area: footer; }
 
-.contenedor {
-  display: grid;
-  grid-template-areas: "nav header " "nav main " "footer footer";
-  grid-row: 0.25fr 1.5fr 0.25;
-  grid-template-columns: 10% auto; }
-
-.header {
-  grid-area: header; }
-
-.nav {
-  grid-area: nav; }
-
-main {
-  grid-area: main; }
-
-footer {
-  grid-area: footer; }
-
-/*inicio hedear*/
 header {
   background-color: #2a8658; }
 
@@ -370,12 +353,6 @@ form {
     width: 200%; }
   .parrafo__contacto {
     font-size: 1rem; }
-  table, td {
-    margin: auto;
-    font-size: 0.5rem;
-    font-weight: bold; }
-  table, th {
-    font-size: 0.8rem; }
   .section__galeria {
     display: flex;
     flex-direction: column; }

@@ -3,36 +3,13 @@
 @import "variables.scss";
 
 
-
-
-
-
-.contenedor{
-    display: grid;
-    grid-template-areas: 
-        "nav header "
-        "nav main "
-        "footer footer";
-        grid-row: 0.25fr 1.5fr 0.25 ;
-        grid-template-columns: 10% auto;
-
-}
-.header{
-    grid-area: header;    
-}
-.nav{
-    grid-area: nav;
-}
-main{
-    grid-area: main;
-}
-footer{
-    grid-area: footer;
-}
-/*inicio hedear*/
 header{
     background-color: $color-fondo;  
 }
+
+
+
+
 
 
 /*titulo header*/
@@ -437,14 +414,8 @@ form{
     .parrafo__contacto{
         font-size:map-get($fuentes,cuatro);
     }
-    table,td{
-        margin: auto;
-        font-size:map-get($fuentes,3);
-        font-weight: bold;
-    }
-    table,th{
-        font-size:map-get($fuentes,7);
-    }
+  
+
     .section__galeria{
         display: flex;
         flex-direction: column;
