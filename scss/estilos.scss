@@ -6,12 +6,6 @@
 header{
     background-color: $color-fondo;  
 }
-
-
-
-
-
-
 /*titulo header*/
 
 h1{
@@ -291,6 +285,10 @@ form{
 }
 .fa-instagram{
     animation-delay: 1s;
+}
+.fa-circle-arrow-up{
+    font-size: 200%;
+    color: $color-fondo;
 }
 @keyframes float{
     0%{

@@ -266,6 +266,10 @@ form {
 .fa-instagram {
   animation-delay: 1s; }
 
+.fa-circle-arrow-up {
+  font-size: 200%;
+  color: #2a8658; }
+
 @keyframes float {
   0% {
     transform: translateX(0); }
