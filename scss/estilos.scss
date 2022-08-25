@@ -137,14 +137,24 @@ h2{
         border-style: none;
     } 
 }
+.ul__producto{
+    justify-content: space-evenly;
+}
+.tarjeta{
+    margin-top: 2%;
+}
 
 /*producto general*/
+.producto2__ul{
+    list-style-type: none;
+    display: inline-block;
+}
 .producto2__titulo{
     color: rgb(38, 129, 58);
     font-weight: bold;
     font-size:map-get($fuentes,cinco);
     font-family: $font-family-titulos ;
-    margin-top: 2%;  
+    margin-top: 2%; 
     
 }
 /*genero perfumes*/
@@ -178,8 +188,7 @@ h2{
     margin-left: 33%;
 }
 .img__originales{
-    width: 50%;
-    height: 60%;
+   
     transition: 1s;
     
     
@@ -355,28 +364,27 @@ form{
     
     .footer__h3{
         font-size:map-get($fuentes,9);
-        margin-left: 18%;
+        margin-left: 20%;
     }
     .footer__img{
-        position: absolute;
+        
         margin-top: 1%;
         margin-left: 5%;
-        width: 6%;
+        width: 8%;
         height: 6%;
     }
     .footer__ul{
-        margin-left: 12%;
-    }
-    .footer__li{
         
-        display: inline-block;
-        list-style: none;
-        text-decoration: none;  
-    }
-    .footer__a{
-        font-size:map-get($fuentes,7); 
-        text-decoration: none;
-    }  
+        .footer__li{
+            
+                   
+            .footer__a{
+                
+                font-size:map-get($fuentes,7); 
+                text-decoration: none;
+                    }  
+                }
+            }
     .icon{
         font-size:map-get($fuentes,7);
     }
@@ -388,7 +396,10 @@ form{
         flex-direction: column;
     }
     .producto2__titulo{
-        font-size:map-get($fuentes,10);
+        font-size:map-get($fuentes,cuatro);
+    }
+    .producto2__subtitulo{
+        font-size: map-get($fuentes,7);
     }
     .img__quiensoy{
         width: 100%;
@@ -492,9 +503,9 @@ form{
         margin-left: 20%;
     }
     .producto2__titulo{
-        font-size:map-get($fuentes,7);
-    }.producto2__titulo{
         font-size:map-get($fuentes,cuatro);
+    }.producto2__titulo{
+        font-size:map-get($fuentes,7);
     }
     .parrafo__quiensoy{
         font-size:map-get($fuentes,9);

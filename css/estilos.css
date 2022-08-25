@@ -138,7 +138,17 @@ h2 {
     font-weight: bold;
     border-style: none; }
 
+.ul__producto {
+  justify-content: space-evenly; }
+
+.tarjeta {
+  margin-top: 2%; }
+
 /*producto general*/
+.producto2__ul {
+  list-style-type: none;
+  display: inline-block; }
+
 .producto2__titulo {
   color: #26813a;
   font-weight: bold;
@@ -176,8 +186,6 @@ h2 {
   margin-left: 33%; }
 
 .img__originales {
-  width: 50%;
-  height: 60%;
   transition: 1s; }
 
 .img__originales:hover {
@@ -318,20 +326,13 @@ form {
     font-size: 0.8rem; }
   .footer__h3 {
     font-size: 1.2rem;
-    margin-left: 18%; }
+    margin-left: 20%; }
   .footer__img {
-    position: absolute;
     margin-top: 1%;
     margin-left: 5%;
-    width: 6%;
+    width: 8%;
     height: 6%; }
-  .footer__ul {
-    margin-left: 12%; }
-  .footer__li {
-    display: inline-block;
-    list-style: none;
-    text-decoration: none; }
-  .footer__a {
+  .footer__ul .footer__li .footer__a {
     font-size: 0.8rem;
     text-decoration: none; }
   .icon {
@@ -342,7 +343,9 @@ form {
     display: flex;
     flex-direction: column; }
   .producto2__titulo {
-    font-size: 0.7rem; }
+    font-size: 1rem; }
+  .producto2__subtitulo {
+    font-size: 0.8rem; }
   .img__quiensoy {
     width: 100%; }
   .parrafo__quiensoy {
@@ -409,9 +412,9 @@ form {
     display: block;
     margin-left: 20%; }
   .producto2__titulo {
-    font-size: 0.8rem; }
-  .producto2__titulo {
     font-size: 1rem; }
+  .producto2__titulo {
+    font-size: 0.8rem; }
   .parrafo__quiensoy {
     font-size: 1.2rem; }
   .parrafo__contacto {
