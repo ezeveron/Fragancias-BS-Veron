@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../images/fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css1/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Fragancias BS-Productos</title>
     
 </head>
@@ -158,7 +158,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                             Perfumes
                         
-                                <ul class="producto2__ul accordion-collapse collapse" id="flush-collapseOne" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <ul class="producto2__ul accordion-collapse collapse ul__producto" id="flush-collapseOne" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta"style="width: 10rem;">
                                         <p class="producto2__li card-title">212</p>
                                         <p class="productos2__p card-text">$ 1.000,00</p>
@@ -337,7 +337,7 @@
                 <a href="#arriba"><i class="fa-solid fa-circle-arrow-up" ></i></a>
                 <h3 id="perfumesFemeninos" class="producto2__titulo animate_animate animate__bounceInUp text-center">Perfumes Femeninos</h3>
                 <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">Envase Original</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline ul__producto">
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
                     <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
                         <p class="producto2__li card-title">OLYMPHEA INTENSE</p> 
                         <p class="productos2__p card-text">$ 3.100,00</p>
@@ -440,7 +440,7 @@
                         <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center accordion-header" id="flush-headingOne">Envases Comun
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                             Perfumes
-                                <ul class="producto2__ul accordion-collapse collapse" id="flush-collapseOne" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <ul class="producto2__ul accordion-collapse collapse ul__producto" id="flush-collapseOne" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                     <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta"style="width: 10rem;">
                                         <p class="producto2__li card-title">212</p>
                                         <p class="productos2__p card-text">$ 1.000,00</p>
@@ -656,227 +656,282 @@
                 </div>
                 <a href="#arriba"><i class="fa-solid fa-circle-arrow-up"></i></a>
                 <h3 id="aeromatizantesAutomaticos" class="producto2__titulo animate_animate animate__bounceInUp text-center">Aromatizantes Automaticos</h3>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">TE VERDE 
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticoteverde.jpeg" class="img__originales rounded card-img-top" alt="Te Verde"> 
+                        <p class="producto2__li card-title">TE VERDE</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">UVA
-                        <p class="productos2__p">$ 390,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticouva.jpeg" class="img__originales rounded card-img-top" alt="Uva">
+                        <p class="producto2__li card-title">UVA</p>
+                        <p class="productos2__p card-text">$ 390,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">PAPAYA
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticopapaya.jpeg" class="img__originales rounded card-img-top" alt="Papaya">
+                        <p class="producto2__li card-title">PAPAYA</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">RICCI
-                        <p class="productos2__p" >$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticorichi.jpeg" class="img__originales rounded card-img-top" alt="Ricci">
+                        <p class="producto2__li card-title">RICCI</p>
+                        <p class="productos2__p card-text" >$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CHICLE
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticochicle.jpeg" class="img__originales rounded card-img-top" alt="Chicle">
+                        <p class="producto2__li card-title">CHICLE</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VAINILLA
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticococovainilla.jpeg" class="img__originales rounded card-img-top" alt="Vainilla">
+                        <p class="producto2__li card-title">VAINILLA</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">TASCANI
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticotascani.jpeg" class="img__originales rounded card-img-top" alt="Tascani">
+                        <p class="producto2__li card-title">TASCANI</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">SANDIA PEPINO
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticosandiapepino.jpeg" class="img__originales rounded card-img-top" alt="Sandia Pepino">
+                        <p class="producto2__li card-title">SANDIA PEPINO</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FRESIAS
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">FRESIAS</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">JAZMIN
-                        <p class="productos2__p">$ 390,00 </p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticojazmin.jpeg" class="img__originales rounded card-img-top" alt="Jazmin">
+                        <p class="producto2__li card-title">JAZMIN</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">MAGNOLIA VAINILLA
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticomagnoliavainilla.jpeg" class="img__originales rounded card-img-top" alt="Magnolia Vainilla">
+                        <p class="producto2__li card-title">MAGNOLIA VAINILLA</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FRESH
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticofresh.jpeg" class="img__originales rounded card-img-top" alt="Fresh">
+                        <p class="producto2__li card-title">FRESH</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li> 
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">NARDO
-                        <p class="productos2__p">$ 390,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticonardo.jpeg" class="img__originales rounded card-img-top" alt="Nardo">
+                        <p class="producto2__li card-title">NARDO</p>
+                        <p class="productos2__p card-text">$ 390,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">DANIELS
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticodaniels.jpeg" class="img__originales rounded card-img-top" alt="Daniels">
+                        <p class="producto2__li card-title">DANIELS</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">COCO VAINILLA
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticococovainilla.jpeg" class="img__originales rounded card-img-top" alt="Coco Vainilla">
+                        <p class="producto2__li card-title">COCO VAINILLA</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CITRUS
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticocitrus.jpeg" class="img__originales rounded card-img-top" alt="Citrus">
+                        <p class="producto2__li card-title">CITRUS</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">DREAMS (OLYMPHEA)
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticodreams.jpeg" class="img__originales rounded card-img-top" alt="Drams">
+                        <p class="producto2__li card-title">DREAMS (OLYMPHEA)</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BAMBU
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticobambu.jpeg" class="img__originales rounded card-img-top" alt="Bambu">
+                        <p class="producto2__li card-title">BAMBU</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BLACK LABEL
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticoblacklebel.jpeg" class="img__originales rounded card-img-top" alt="Black Lebel">
+                        <p class="producto2__li card-title">BLACK LABEL</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BEBE
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticobebe.jpeg" class="img__originales rounded card-img-top" alt="Bebe">
+                        <p class="producto2__li card-title">BEBE</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BAMBINO (PETIT ENFANT)
-                        <p class="productos2__p">$ 390,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticobambino.jpeg" class="img__originales rounded card-img-top" alt="Bambino">
+                        <p class="producto2__li card-title">BAMBINO (PETIT ENFANT)</p>
+                        <p class="productos2__p card-text">$ 390,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BALI
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticobali.jpeg" class="img__originales rounded card-img-top" alt="Bali">
+                        <p class="producto2__li card-title">BALI</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FLORES BLANCAS
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticofloresblancas.jpeg" class="img__originales rounded card-img-top" alt="Flores Blancas">
+                        <p class="producto2__li card-title">FLORES BLANCAS</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LIMON
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticolimon.jpeg" class="img__originales rounded card-img-top" alt="Limon">
+                        <p class="producto2__li card-title">LIMON</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">MANGO PAPAYA
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticomangopapaya.jpeg" class="img__originales rounded card-img-top" alt="Mango Papaya">
+                        <p class="producto2__li card-title">MANGO PAPAYA</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">ONE MILLON
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">ONE MILLON</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CONIGLIO
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticoconiglio.jpeg" class="img__originales rounded card-img-top" alt="Coniglio">
+                        <p class="producto2__li card-title">CONIGLIO</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">KEN
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">KEN</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">GARDENIA
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticogardenia.jpeg" class="img__originales rounded card-img-top" alt="Gardenia">
+                        <p class="producto2__li card-title">GARDENIA</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LAVANDA
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticolavanda.jpeg" class="img__originales rounded card-img-top" alt="Lavanda">
+                        <p class="producto2__li card-title">LAVANDA</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">NEROLI ORQUIDEAS
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticoneroliorquidias.jpeg" class="img__originales rounded card-img-top" alt="Neroli Orquidias">
+                        <p class="producto2__li card-title">NEROLI ORQUIDEAS</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">OCEAN (MARINA)
-                        <p class="productos2__p">$ 390,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/automaticoocean.jpeg" class="img__originales rounded card-img-top" alt="Ocean">
+                        <p class="producto2__li card-title">OCEAN (MARINA)</p>
+                        <p class="productos2__p card-text">$ 390,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">MAQUINAS ANALOGICAS
-                        <p class="productos2__p">$ 1.100,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">MAQUINAS ANALOGICAS</p>
+                        <p class="productos2__p card-text">$ 1.100,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
                 </ul>
                 <a href="#arriba"><i class="fa-solid fa-circle-arrow-up"></i></a>
                 <h3 id="aeromatizantesTextiles" class="producto2__titulo animate_animate animate__bounceInUp text-center">Aeromatizantes Textiles</h3>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">UVA
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">UVA</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LIMON
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">LIMON</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">TE DE LIMON
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">TE DE LIMON</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">TIKET (FLORAL)
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">TIKET (FLORAL)</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CONIGLIO
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">CONIGLIO</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">SUAVIDAD DE ALGODON
-                        <p class="productos2__p">$ 450,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">SUAVIDAD DE ALGODON</p>
+                        <p class="productos2__p card-text">$ 450,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">COTTON FRESH (ROPA LIMPIA)
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">COTTON FRESH (ROPA LIMPIA)</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">GARDENIA
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">GARDENIA</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">MANGO GUARANA
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">MANGO GUARANA</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CK ONE
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">CK ONE</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FLOWER
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">FLOWER</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">RALPHIE
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">RALPHIE</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VAINILLA
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VAINILLA</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">COCO VAINILLA
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">COCO VAINILLA</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">SANDIA PEPINO
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">SANDIA PEPINO</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">TE VERDE
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">TE VERDE</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">OCEAN (MARINA)
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">OCEAN (MARINA)</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">DANIELS
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">DANIELS</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">TE VERDE
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">TE VERDE</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BAMBU
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">BAMBU</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">RICCI RICC
-                        <p class="productos2__p">$ 450,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">RICCI RICC</p>
+                        <p class="productos2__p card-text">$ 450,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">PAPAYA
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">PAPAYA</p>
                         <p class="productos2__p">$ 450,00 </p>
                         <p class="productos2__p">Envase de 300 ml.</p>
                     </li>
@@ -888,314 +943,383 @@
                     <img src="../images/difusor.jpg" alt="Difusor" class="img__perfumeo">
                 </div>
                 <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">Envases de Plastico</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VAINILLA
-                        <p class="productos2__p">$ 1.000,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/difusorvainilla.jpeg" class="img__originales rounded card-img-top" alt="Vainilla">
+                        <p class="producto2__li card-title">VAINILLA</p>
+                        <p class="productos2__p card-text">$ 1.000,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LIMON
-                        <p class="productos2__p">$ 1.000,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">LIMON</p>
+                        <p class="productos2__p card-text">$ 1.000,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">POMELO NARANJA
-                        <p class="productos2__p">$ 1.000,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">POMELO NARANJA</p>
+                        <p class="productos2__p card-text">$ 1.000,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">MANGO GUARANA
-                        <p class="productos2__p">$ 1.000,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">MANGO GUARANA</p>
+                        <p class="productos2__p card-text">$ 1.000,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">PERA DURAZNO
-                        <p class="productos2__p">$ 1.000,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">PERA DURAZNO</p>
+                        <p class="productos2__p card-text">$ 1.000,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">GARDENIA<br>$ 1.000,00
-                        <p class="productos2__p">$ 1.000,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">GARDENIA</p>
+                        <p class="productos2__p card-text">$ 1.000,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">MIND (NARDO Y JAZMIN)
-                        <p class="productos2__p">$ 1.000,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/difusormind.jpeg" class="img__originales rounded card-img-top" alt="Mind (Nardo y Jazmin)">
+                        <p class="producto2__li card-title">MIND (NARDO Y JAZMIN)</p>
+                        <p class="productos2__p card-text">$ 1.000,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">PETALOS DE LOTO Y JAZMIN
-                        <p class="productos2__p">$ 1.000,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/difusorlotojazmin.jpeg" class="img__originales rounded card-img-top" alt="Loto y Jazmin">
+                        <p class="producto2__li card-title">PETALOS DE LOTO Y JAZMIN</p>
+                        <p class="productos2__p card-text">$ 1.000,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">ROSAS
-                        <p class="productos2__p">$ 1.000,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="Rosas">
+                        <p class="producto2__li card-title">ROSAS</p>
+                        <p class="productos2__p card-text">$ 1.000,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FANTASY (TUTTI FRUTTI)
-                        <p class="productos2__p">$ 1.000,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">FANTASY (TUTTI FRUTTI)</p>
+                        <p class="productos2__p card-text">$ 1.000,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
                 </ul>
                 <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">ENVASE DE VIDRIO 250 ML.</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CITRUS
-                        <p class="productos2__p">$ 1.150,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="Citrus">
+                        <p class="producto2__li card-title">CITRUS</p>
+                        <p class="productos2__p card-text">$ 1.150,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VAINILLA Y ROSAS
-                        <p class="productos2__p">$ 1.150,00  </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VAINILLA Y ROSAS</p>
+                        <p class="productos2__p card-text">$ 1.150,00  </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FRUTILLAS Y MORAS
-                        <p class="productos2__p">$ 1.150,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">FRUTILLAS Y MORAS</p>
+                        <p class="productos2__p card-text">$ 1.150,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">COCO VAINILLA
-                        <p class="productos2__p">$ 1.150,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/difusorcocoyvainilla.jpeg" class="img__originales rounded card-img-top" alt="Coco Vainilla">
+                        <p class="producto2__li card-title">COCO VAINILLA</p>
+                        <p class="productos2__p card-text">$ 1.150,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FLOR DE AZAHAR
-                        <p class="productos2__p">$ 1.150,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">FLOR DE AZAHAR</p>
+                        <p class="productos2__p card-text">$ 1.150,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BODY (SANDALO Y CEDRO)
-                        <p class="productos2__p">$ 1.150,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/difusorbody.jpeg" class="img__originales rounded card-img-top" alt="Body (Sandalo y Cedro)">
+                        <p class="producto2__li card-title">BODY (SANDALO Y CEDRO)</p>
+                        <p class="productos2__p card-text">$ 1.150,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">JENGIBRE Y LIMA
-                        <p class="productos2__p">$ 1.150,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/difusorgingerylima.jpeg" class="img__originales rounded card-img-top" alt="Gengibre Lima">
+                        <p class="producto2__li card-title">JENGIBRE Y LIMA</p>
+                        <p class="productos2__p card-text">$ 1.150,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">PITANGA Y VODKA
-                        <p class="productos2__p">$ 1.150,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="../images/difusorpitabgayvodka.jpeg" class="img__originales rounded card-img-top" alt="Pitanga y Vodka">
+                        <p class="producto2__li card-title">PITANGA Y VODKA</p>
+                        <p class="productos2__p card-text">$ 1.150,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">MADERA Y VAINILLA
-                        <p class="productos2__p">$ 1.150,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">MADERA Y VAINILLA</p>
+                        <p class="productos2__p card-text">$ 1.150,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
                 </ul>
                 <a href="#arriba"><i class="fa-solid fa-circle-arrow-up"></i></a>
 
                 <h3 id="velas" class="producto2__titulo animate_animate animate__bounceInUp text-center">Velas</h3>
                 
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VELAS EN LATITAS PEQUEÑAS
-                        <p class="productos2__p">$ 300,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VELAS EN LATITAS PEQUEÑAS</p>
+                        <p class="productos2__p card-text">$ 300,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VELAS EN LATITAS MEDIANAS
-                        <p class="productos2__p">$ 500,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VELAS EN LATITAS MEDIANAS</p>
+                        <p class="productos2__p card-text">$ 500,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VELAS EN VASO
-                        <p class="productos2__p">$ 800,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VELAS EN VASO</p>
+                        <p class="productos2__p card-text">$ 800,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VELA EN CARAMELERA CHICA
-                        <p class="productos2__p">$ 950,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VELA EN CARAMELERA CHICA</p>
+                        <p class="productos2__p card-text">$ 950,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VELA EN CARAMELERA GRANDE
-                        <p class="productos2__p">$ 1.500,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VELA EN CARAMELERA GRANDE</p>
+                        <p class="productos2__p card-text">$ 1.500,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VELAS EN ENVASES RECICLADOS
-                        <p class="productos2__p">$ 650,00</p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VELAS EN ENVASES RECICLADOS</p>
+                        <p class="productos2__p card-text">$ 650,00</p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VELAS HOY
-                        <p class="productos2__p">$ 1.200,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VELAS HOY</p>
+                        <p class="productos2__p card-text">$ 1.200,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VELAS 7 CHAKRAS POR UNIDAD
-                        <p class="productos2__p">$ 550,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VELAS 7 CHAKRAS POR UNIDAD</p>
+                        <p class="productos2__p card-text">$ 550,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VELAS DE NOCHE (12 UNIDADES)
-                        <p class="productos2__p">$ 220,00 </p>
-                        <p class="productos2__p">Envase de 300 ml.</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VELAS DE NOCHE (12 UNIDADES)</p>
+                        <p class="productos2__p card-text">$ 220,00 </p>
+                        <p class="productos2__p card-text">Envase de 300 ml.</p>
                     </li>
                 </ul>
                 <a href="#arriba"><i class="fa-solid fa-circle-arrow-up"></i></a>
 
                 <h3 id="sahumerios" class="producto2__titulo animate_animate animate__bounceInUp text-center">Sahumerios</h3>
                 <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">AROMANZA (Triple Empaste Extra Fuerte)</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CANELA MISTICA
-                        <p class="productos2__p">$ 300,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">CANELA MISTICA</p>
+                        <p class="productos2__p card-text">$ 300,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CHANDAN
-                        <p class="productos2__p">$ 300,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">CHANDAN</p>
+                        <p class="productos2__p card-text">$ 300,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">GARDENIA Y FLORES BLANCAS
-                        <p class="productos2__p">$ 300,00</p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">GARDENIA Y FLORES BLANCAS</p>
+                        <p class="productos2__p card-text">$ 300,00</p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FRUTOS ROJOS
-                        <p class="productos2__p">$ 300,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">FRUTOS ROJOS</p>
+                        <p class="productos2__p card-text">$ 300,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">RATMAHALA
-                        <p class="productos2__p">$ 300,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">RATMAHALA</p>
+                        <p class="productos2__p card-text">$ 300,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">NOCHE DE ENSUEÑO
-                        <p class="productos2__p">$ 300,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">NOCHE DE ENSUEÑO</p>
+                        <p class="productos2__p card-text">$ 300,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BERRY KIDS
-                        <p class="productos2__p">$ 300,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">BERRY KIDS</p>
+                        <p class="productos2__p card-text">$ 300,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">REAL CHAMPA
-                        <p class="productos2__p">$ 300,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">REAL CHAMPA</p>
+                        <p class="productos2__p card-text">$ 300,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
                 </ul>
                 <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">Simples</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">SUPER SANDALO
-                        <p class="productos2__p">$ 130,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">SUPER SANDALO</p>
+                        <p class="productos2__p card-text">$ 130,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">SANDALO MADERA Y VAINILLA
-                        <p class="productos2__p">$ 130,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">SANDALO MADERA Y VAINILLA</p>
+                        <p class="productos2__p card-text">$ 130,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">REAL CHAMPA
-                        <p class="productos2__p">$ 130,00</p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">REAL CHAMPA</p>
+                        <p class="productos2__p card-text">$ 130,00</p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LAVANDA
-                        <p class="productos2__p">$ 130,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">LAVANDA</p>
+                        <p class="productos2__p card-text">$ 130,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LAVANDA MENTA
-                        <p class="productos2__p">$ 130,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">LAVANDA MENTA</p>
+                        <p class="productos2__p card-text">$ 130,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">MAGNOLIA VAINILLA
-                        <p class="productos2__p">$ 130,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">MAGNOLIA VAINILLA</p>
+                        <p class="productos2__p card-text">$ 130,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BENJUI
-                        <p class="productos2__p">$ 130,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">BENJUI</p>
+                        <p class="productos2__p card-text">$ 130,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CANELA MANZANA
-                        <p class="productos2__p">$ 130,00 </p>
-                        <p class="productos2__p">X Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">CANELA MANZANA</p>
+                        <p class="productos2__p card-text">$ 130,00 </p>
+                        <p class="productos2__p card-text">X Unidades</p>
                     </li>
                 </ul>
                 <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">HEM </h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CHANDAN
-                        <p class="productos2__p">$ 100,00 </p>
-                        <p class="productos2__p">12 Unidades</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">CHANDAN</p>
+                        <p class="productos2__p card-text">$ 100,00 </p>
+                        <p class="productos2__p card-text">12 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">MUSK
-                        <p class="productos2__p">$ 100,00 </p>
-                        <p class="productos2__p">12 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">MUSK</p>
+                        <p class="productos2__p card-text">$ 100,00 </p>
+                        <p class="productos2__p card-text">12 Unidades</p>
                     </li>
                 </ul>
                 
                 <h4 class="producto2__subtitulo text-center">SREE VARI</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">SANDALO
-                        <p class="productos2__p">$ 90,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">SANDALO</p>
+                        <p class="productos2__p card-text">$ 90,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">COCO
-                        <p class="productos2__p">$ 90,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">COCO</p>
+                        <p class="productos2__p card-text">$ 90,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CANELA
-                        <p class="productos2__p">$ 90,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">CANELA</p>
+                        <p class="productos2__p card-text">$ 90,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">EUCALIPTO Y MENTA
-                        <p class="productos2__p">$ 90,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">EUCALIPTO Y MENTA</p>
+                        <p class="productos2__p card-text">$ 90,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FENG SHUI
-                        <p class="productos2__p">$ 90,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">FENG SHUI</p>
+                        <p class="productos2__p card-text">$ 90,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LIMON Y LIMA
-                        <p class="productos2__p">$ 90,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">LIMON Y LIMA</p>
+                        <p class="productos2__p card-text">$ 90,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">7 PODERES 
-                        <p class="productos2__p">$ 90,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="..."> 
+                        <p class="producto2__li card-title">7 PODERES</p>
+                        <p class="productos2__p card-text">$ 90,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LAKXMI
-                        <p class="productos2__p">$ 110,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">LAKXMI</p>
+                        <p class="productos2__p card-text">$ 110,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">SHIVAA
-                        <p class="productos2__p">$ 110,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">SHIVAA</p>
+                        <p class="productos2__p card-text">$ 110,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">GOLAPA
-                        <p class="productos2__p">$ 110,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">GOLAPA</p>
+                        <p class="productos2__p card-text">$ 110,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">BUDDAH
-                        <p class="productos2__p">$ 110,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">BUDDAH</p>
+                        <p class="productos2__p card-text">$ 110,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
                 </ul>
                 
                 <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">ILUMINARTE (Extra Fuerte)</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">SANDALO
-                        <p class="productos2__p">$ 170,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">SANDALO</p>
+                        <p class="productos2__p card-text">$ 170,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">JAZMIN
-                        <p class="productos2__p">$ 170,00</p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">JAZMIN</p>
+                        <p class="productos2__p card-text">$ 170,00</p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">ROSA
-                        <p class="productos2__p">$ 170,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">ROSA</p>
+                        <p class="productos2__p card-text">$ 170,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">VAINILLA
-                        <p class="productos2__p">$ 170,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">VAINILLA</p>
+                        <p class="productos2__p card-text">$ 170,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">CHANDAN
-                        <p class="productos2__p">$ 170,00</p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">CHANDAN</p>
+                        <p class="productos2__p card-text">$ 170,00</p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">PALO SANTO 
-                        <p class="productos2__p">$ 170,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="..."> 
+                        <p class="producto2__li card-title">PALO SANTO</p>
+                        <p class="productos2__p card-text">$ 170,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LAVANDA
-                        <p class="productos2__p">$ 170,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">LAVANDA</p>
+                        <p class="productos2__p card-text">$ 170,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">FRUTILLA
-                        <p class="productos2__p">$ 170,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">FRUTILLA</p>
+                        <p class="productos2__p card-text">$ 170,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">LIMON
-                        <p class="productos2__p">$ 170,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">LIMON</p>
+                        <p class="productos2__p card-text">$ 170,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
                 </ul>
                 <h4 class="producto2__subtitulo animate_animate animate__bounceInUp text-center">SAGRADA MADRE</h4>
-                <ul class="producto2__ul animate_animate animate__bounceInUp row list-inline">
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">RUDA ROMERO INCIENSO
-                        <p class="productos2__p">$ 220,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                <ul class="animate_animate animate__bounceInUp row list-inline ul__producto">
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">RUDA ROMERO INCIENSO</p>
+                        <p class="productos2__p card-text">$ 220,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">YAGRA
-                        <p class="productos2__p">$ 220,00 </p>  
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">YAGRA</p>
+                        <p class="productos2__p card-text">$ 220,00 </p>  
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
-                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">INCIENSO
-                        <p class="productos2__p">$ 220,00 </p>
-                        <p class="productos2__p">20 Unidades</p>
+                    <li class="card col-xl-4 col-md-6 col-sm-12 tarjeta" style="width: 20rem;"><img src="..." class="img__originales rounded card-img-top" alt="...">
+                        <p class="producto2__li card-title">INCIENSO</p>
+                        <p class="productos2__p card-text">$ 220,00 </p>
+                        <p class="productos2__p card-text">20 Unidades</p>
                     </li>
                 </ul>
                 <a href="#arriba"><i class="fa-solid fa-circle-arrow-up"></i></a>
@@ -1205,15 +1329,15 @@
         
     
         <footer class="footer"> <!--Inicio del Footer-->
-            <a href="../index.html"><img class="footer__img" src="../images/logooriginal.png" alt="Logo"></a>
-            <h3 class="footer__h3">Siguenos en Nuestras Redes</h3>
+          
+            <h3 class="footer__h3"><a href="#"><img class="footer__img" src="../images/logooriginal.png" alt="Logo"></a>Siguenos en Nuestras Redes</h3>
             <ul class="footer__ul">
                 <li class="footer__li"><a class="footer__a" href="https://www.facebook.com/mardefraganciasbs" target="_blank"><i class="fa-brands fa-facebook icon"></i>Facebook</a>
                 </li>
                 <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-instagram icon"></i>Instragram</a></li>
                 <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-whatsapp icon"></i>Whatssap</a></li>
             </ul>
-        
+             
         </footer> <!--Fin del Footer-->
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
