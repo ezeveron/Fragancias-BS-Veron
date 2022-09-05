@@ -74,6 +74,10 @@ h2{
     font-size:map-get($fuentes,2);
     color: rgb(42, 134, 88);     
 }
+.img__inicio{
+    object-fit: cover;
+    
+}
 
 /*footer*/
 .footer{
@@ -185,9 +189,8 @@ h2{
     margin-left: 33%;
 }
 
-.galeria_img:hover{
-    transform: scale(1.2);
-    ;
+.galeria_img:hover {
+    transform:scale(1.2);
 }
 
 /*parafo quien soy*/
@@ -198,21 +201,12 @@ h2{
 
 /*imagenes de ofertas*/
 
-
-     
-.img__ofertas{
-    
-    width: 50%;
-    height: 100%;
-    
-}
-
 .tarjeta{
     margin: 2%;
     transition: 1s;
     box-shadow: 10px 5px 5px $color-fondo;
     &:hover{
-        transform: scale(1.2);
+        transform:scale(1.2) ;
     }
 }
 .section__galeria{

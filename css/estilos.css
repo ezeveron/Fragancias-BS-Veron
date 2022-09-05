@@ -84,6 +84,9 @@ h2 {
   font-size: 0.95rem;
   color: #2a8658; }
 
+.img__inicio {
+  object-fit: cover; }
+
 /*footer*/
 .footer {
   background-color: #2a8658; }
@@ -190,10 +193,6 @@ h2 {
   font-size: 1rem; }
 
 /*imagenes de ofertas*/
-.img__ofertas {
-  width: 50%;
-  height: 100%; }
-
 .tarjeta {
   margin: 2%;
   transition: 1s;
