@@ -12,7 +12,7 @@ h1{
     font-size:map-get($fuentes,11);
     color: $color-titulo;
     font-family: $font-family-titulos;
-    margin-top: 0.3%;
+    margin-top: 2%;
     font-weight: bold;
 }
 /*navegador header*/
@@ -129,7 +129,8 @@ h2{
     display: inline-block; 
     border-style: none;
     text-decoration: none;
-    margin: 0.3%; 
+    margin: 0.6%; 
+    margin-top: 1%;
     .producto__a{
         list-style: none;
         color: rgb(23, 156, 57);
@@ -178,6 +179,13 @@ h2{
     @extend .producto2__li;
     font-weight: normal;
 }
+.mi__imagen{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    width: 20%;
+    
+}
 .img__perfumeof{ 
   width: 30%;
   height: 30%;
@@ -204,12 +212,18 @@ h2{
     text-align: center;
     margin: 15px 0;   
 }
-
+.imagen{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
 .imagen img{
-    width: 80%;
-    margin-left: 10%;
+    width: 60%;
+    height: 100%;
+    margin-left:20%;
     border: 7px solid;
     box-sizing: border-box;
+    
 }
 .cerrar{
     display: block;
@@ -233,24 +247,24 @@ h2{
 .tarjeta{
     margin: 2%;
     transition: 1s;
-    box-shadow: 10px 5px 5px $color-fondo;
+    box-shadow: 10px 5px 5px rgba(131, 233, 224, 0.87);
     &:hover{
         transform:scale(1.2) ;
     }
 }
 .section__galeria{
-    padding-bottom : 1%;
-    padding-top: 1%;
+    padding-bottom : 0.5%;
+    padding-top: 0.5%;
     display:grid;
     grid-template-columns: repeat(4 , 1fr);
-    grid-auto-rows: 23%;
+    grid-auto-rows: 300px;
     grid-template-areas: 
     'img1 img2 img3 img3'
     'img1 img4 img3 img3'
     'img5 img5 img7 img7'
     'img5 img5 img6 img8';
-    gap: 1%; 
-    margin: 1%; 
+    gap: 0.5%; 
+    margin: 0.5%; 
 }
 .galeria_imagenes--g1{
       grid-area: img1;
@@ -277,10 +291,9 @@ h2{
       grid-area: img8;
 }
 .galeria_img{
-      width: 100%;
-      height: 100%;
-      /*la imagen no pierde la resolucion */
-      object-fit: cover;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
 }
 
 .section__contacto{
@@ -361,8 +374,11 @@ form{
         display: flex; 
         flex-direction: column;   
     }
-    nav{
+    .nav{
         margin-top: 0%;
+        .navegador{
+            margin-top: 0%;
+        }
     }
     .img__logo{
         width: 10%;
@@ -467,9 +483,12 @@ form{
         display: flex; 
         flex-direction: column; 
     }
-    nav{
+    .nav{
         margin-top: 0%;
         font-size: map-get($fuentes,9);
+        .navegador{
+            margin-top: 0%;
+        }
     }
     .img__logo{
         width: 15%;
@@ -545,8 +564,8 @@ form{
         font-weight: bold;
     }
     .section__galeria{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: auto auto;
     }
     .navegador__a:hover{
         font-size:map-get($fuentes,9);

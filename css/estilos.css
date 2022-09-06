@@ -31,7 +31,7 @@ h1 {
   font-size: 2rem;
   color: #ede7e3;
   font-family: "Poppins", sans-serif;
-  margin-top: 0.3%;
+  margin-top: 2%;
   font-weight: bold; }
 
 /*navegador header*/
@@ -130,7 +130,8 @@ h2 {
   display: inline-block;
   border-style: none;
   text-decoration: none;
-  margin: 0.3%; }
+  margin: 0.6%;
+  margin-top: 1%; }
   .producto__li .producto__a {
     list-style: none;
     color: #179c39;
@@ -175,6 +176,12 @@ h2 {
 .productos2__p {
   font-weight: normal; }
 
+.mi__imagen {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 40%;
+  width: 20%; }
+
 .img__perfumeof {
   width: 30%;
   height: 30%;
@@ -201,9 +208,15 @@ h2 {
   text-align: center;
   margin: 15px 0; }
 
+.imagen {
+  width: 100%;
+  height: 80%;
+  object-fit: cover; }
+
 .imagen img {
-  width: 80%;
-  margin-left: 10%;
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
   border: 7px solid;
   box-sizing: border-box; }
 
@@ -225,19 +238,19 @@ h2 {
 .tarjeta {
   margin: 2%;
   transition: 1s;
-  box-shadow: 10px 5px 5px #2a8658; }
+  box-shadow: 10px 5px 5px rgba(131, 233, 224, 0.87); }
   .tarjeta:hover {
     transform: scale(1.2); }
 
 .section__galeria {
-  padding-bottom: 1%;
-  padding-top: 1%;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 23%;
+  grid-auto-rows: 300px;
   grid-template-areas: 'img1 img2 img3 img3' 'img1 img4 img3 img3' 'img5 img5 img7 img7' 'img5 img5 img6 img8';
-  gap: 1%;
-  margin: 1%; }
+  gap: 0.5%;
+  margin: 0.5%; }
 
 .galeria_imagenes--g1 {
   grid-area: img1; }
@@ -266,7 +279,6 @@ h2 {
 .galeria_img {
   width: 100%;
   height: 100%;
-  /*la imagen no pierde la resolucion */
   object-fit: cover; }
 
 .section__contacto {
@@ -335,8 +347,10 @@ form {
   .contenedor {
     display: flex;
     flex-direction: column; }
-  nav {
+  .nav {
     margin-top: 0%; }
+    .nav .navegador {
+      margin-top: 0%; }
   .img__logo {
     width: 10%; }
   h1 {
@@ -400,9 +414,11 @@ form {
   .contenedor {
     display: flex;
     flex-direction: column; }
-  nav {
+  .nav {
     margin-top: 0%;
     font-size: 1.2rem; }
+    .nav .navegador {
+      margin-top: 0%; }
   .img__logo {
     width: 15%; }
   h1 {
@@ -451,7 +467,7 @@ form {
     font-size: 0.5rem;
     font-weight: bold; }
   .section__galeria {
-    display: flex;
-    flex-direction: column; }
+    display: grid;
+    grid-template-columns: auto auto; }
   .navegador__a:hover {
     font-size: 1.2rem; } }
