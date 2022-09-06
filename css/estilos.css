@@ -31,7 +31,7 @@ h1 {
   font-size: 2rem;
   color: #ede7e3;
   font-family: "Poppins", sans-serif;
-  margin-top: 2%;
+  margin-top: 1%;
   font-weight: bold; }
 
 /*navegador header*/
@@ -383,9 +383,9 @@ form {
       transform: translateX(0); } }
   .producto2__li, .productos2__p {
     flex: 50%; }
-  .producto__ul {
-    display: flex;
-    flex-direction: column; }
+  .producto__li {
+    display: block;
+    margin-left: 20%; }
   .producto2__titulo {
     font-size: 1rem; }
   .producto2__subtitulo {

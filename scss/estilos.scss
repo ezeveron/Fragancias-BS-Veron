@@ -12,7 +12,7 @@ h1{
     font-size:map-get($fuentes,11);
     color: $color-titulo;
     font-family: $font-family-titulos;
-    margin-top: 2%;
+    margin-top: 1%;
     font-weight: bold;
 }
 /*navegador header*/
@@ -435,9 +435,9 @@ form{
     .producto2__li{
         flex: 50%;
     }
-    .producto__ul{
-        display: flex;
-        flex-direction: column;
+    .producto__li{
+        display: block;
+        margin-left: 20%;
     }
     .producto2__titulo{
         font-size:map-get($fuentes,cuatro);
@@ -547,6 +547,7 @@ form{
         display: block;
         margin-left: 20%;
     }
+    
     .producto2__titulo{
         font-size:map-get($fuentes,cuatro);
     }.producto2__titulo{
