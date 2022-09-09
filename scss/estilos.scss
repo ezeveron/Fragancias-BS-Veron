@@ -4,7 +4,7 @@
 
 
 header{
-    background-color: $color-fondo;  
+    background-color:$color-fondo  
 }
 /*titulo header*/
 
@@ -41,7 +41,7 @@ h1{
             .navegador__li{
                 font-size:map-get($fuentes,1);
                 font-weight: bolder;
-                color:rgb(255, 255, 255);
+                color:/*rgb(255, 255, 255)*/rgb(245, 223, 153);
                 .navegador__a{
                     @extend .navegador__li;
                                 &:hover{
@@ -64,7 +64,7 @@ h2{
 /*subtitulos main index*/
 .h3__inicio{
     font-family: $font-family-titulos;
-    color:$color-fondo;
+    color:/*$color-fondo*/rgb(95, 208, 104);
     font-size:map-get($fuentes,1);
     font-weight: bolder; 
 }
@@ -91,7 +91,7 @@ h2{
             text-decoration: none;
             .footer__a{
                 text-decoration: none;
-                color: $color-footer-size;
+                color:/* $color-footer-size*/rgb(245, 223, 153);
                 font-family: $font-family-parrafo;
                 font-size:map-get($fuentes,1);
             }
@@ -102,7 +102,7 @@ h2{
 .footer__h3{
     font-size:map-get($fuentes,1);
     font-family: $font-family-parrafo;
-    color: $color-footer-size;
+    color:/* $color-footer-size*/rgb(245, 223, 153);
     font-weight: bolder;
     margin-top: 1%;
     
@@ -480,12 +480,15 @@ form{
     }
     .imagen img{
         width: 90%;
-        height: 100%;
+        height: 80%;
         margin-left:20%;
         border: 7px solid;
         box-sizing: border-box;
+        margin-top: 35%;
     }
-   
+    .cerrar{
+        margin-top: 0%;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .contenedor{
