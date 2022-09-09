@@ -41,7 +41,7 @@ h1{
             .navegador__li{
                 font-size:map-get($fuentes,1);
                 font-weight: bolder;
-                color:/*rgb(255, 255, 255)*/rgb(245, 223, 153);
+                color:/*rgb(255, 255, 255)*/rgb(75, 119, 141);
                 .navegador__a{
                     @extend .navegador__li;
                                 &:hover{
@@ -57,14 +57,14 @@ h2{
     font-style: normal;
     font-size:map-get($fuentes,12);
     font-family: $font-size-titulo ;
-    color: $color-fondo;
+    color: $color-letras;
     text-decoration: underline;
     margin: 0.5%;
 }
 /*subtitulos main index*/
 .h3__inicio{
     font-family: $font-family-titulos;
-    color:/*$color-fondo*/rgb(95, 208, 104);
+    color:$color-letras;
     font-size:map-get($fuentes,1);
     font-weight: bolder; 
 }
@@ -72,7 +72,7 @@ h2{
 .parrafo__inicio{
     font-family:$font-family-parrafo ;
     font-size:map-get($fuentes,2);
-    color: rgb(42, 134, 88);     
+    color: $color-titulo;     
 }
 .img__inicio{
     object-fit: cover;
@@ -91,7 +91,7 @@ h2{
             text-decoration: none;
             .footer__a{
                 text-decoration: none;
-                color:/* $color-footer-size*/rgb(245, 223, 153);
+                color:/* $color-footer-size*/rgb(75, 119, 141);
                 font-family: $font-family-parrafo;
                 font-size:map-get($fuentes,1);
             }
@@ -102,7 +102,7 @@ h2{
 .footer__h3{
     font-size:map-get($fuentes,1);
     font-family: $font-family-parrafo;
-    color:/* $color-footer-size*/rgb(245, 223, 153);
+    color:/* $color-footer-size*/rgb(75, 119, 141);
     font-weight: bolder;
     margin-top: 1%;
     
@@ -131,7 +131,7 @@ h2{
     margin-top: 1%;
     .producto__a{
         list-style: none;
-        color: rgb(23, 156, 57);
+        color: $color-titulo;
         font-size:map-get($fuentes,cuatro);
         font-weight: bold;
         border-style: none;
@@ -147,7 +147,7 @@ h2{
     display: inline-block;
 }
 .producto2__titulo{
-    color: rgb(38, 129, 58);
+    color:$color-letras;
     font-weight: bold;
     font-size:map-get($fuentes,cinco);
     font-family: $font-family-titulos ;
@@ -156,7 +156,7 @@ h2{
 }
 /*genero perfumes*/
 .producto2__subtitulo{
-   color: rgb(71, 95, 76) ;
+   color:rgb(83, 191, 157);
    font-family: $font-family-titulos ;
    font-size:map-get($fuentes,1);
    margin-top: 2%; 
@@ -164,7 +164,7 @@ h2{
 }
 /*producto*/
 .producto2__li{
-    color: rgb(35, 161, 56);
+    color:$color-titulo;
     font-family: $font-family-parrafo ;
     font-weight: bold;
     text-align: center;  
@@ -172,9 +172,10 @@ h2{
 }
 /*precio producto*/
 .productos2__p{
-    @extend .producto2__li;
+    color:$color-letras;
     font-weight: normal;
     margin-top: 0%;
+    text-align: center;
 }
 .mi__imagen{
     margin-top: 2%;
@@ -244,7 +245,7 @@ h2{
 .tarjeta{
     margin: 4%;
     transition: 1s;
-    box-shadow: 10px 5px 5px rgba(131, 233, 224, 0.87);
+    box-shadow: 10px 5px 5px rgb(210, 230, 156);
     &:hover{
         transform:scale(1.1) ;
     }
@@ -296,6 +297,32 @@ h2{
 .section__contacto{
     @include display-aling-flex ; 
         
+}
+.div__oferta{
+    margin-top: 3%;
+    border: solid 2px rgb(40, 181, 181);
+}
+.ofertaTitulo{
+    margin-top: 8%;
+    color: $color-titulo;
+    font-family: $font-family-titulos;
+    font-size: 2rem;
+}
+.ofertaTitu{
+    color: $color-titulo;
+    font-family: $font-family-titulos;
+    font-size: 2rem;
+}
+.ofertaTexto{
+    color: $color-letras;
+    font-family: $font-family-parrafo;
+    font-size: 1.5rem;
+}
+.ofertaIcono{
+    color:rgb(255, 197, 77);
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
 }
 
 /*formulario contacto*/
