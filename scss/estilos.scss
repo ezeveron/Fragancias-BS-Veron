@@ -149,7 +149,7 @@ h2{
 .producto2__titulo{
     color:$color-letras;
     font-weight: bold;
-    font-size:map-get($fuentes,cinco);
+    font-size:map-get($fuentes,6);
     font-family: $font-family-titulos ;
     margin-top: 2%;
     
@@ -308,11 +308,6 @@ h2{
     font-family: $font-family-titulos;
     font-size: 2rem;
 }
-.ofertaTitu{
-    color: $color-titulo;
-    font-family: $font-family-titulos;
-    font-size: 2rem;
-}
 .ofertaTexto{
     color: $color-letras;
     font-family: $font-family-parrafo;
@@ -327,7 +322,7 @@ h2{
 
 /*formulario contacto*/
 form{
-    color:rgb(42, 134, 88) ;
+    color:$color-titulo ;
     font-size:map-get($fuentes,cinco); 
 }
 .form{
@@ -516,6 +511,25 @@ form{
     .cerrar{
         margin-top: 0%;
     }
+    .img__perfumeo{ 
+        width: 60%;
+        height: 50%;
+        margin-left: 25%;
+    }
+    .mi__imagen{
+        margin-left: 25%;
+        width: 45%;
+        
+    }
+    .ofertaTitulo{
+        font-size: 1.5rem;
+    }
+    .ofertaTexto{
+        font-size: 1rem;
+    }
+    .ofertaIcono{
+        font-size: 1rem;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .contenedor{
@@ -616,10 +630,9 @@ form{
     }
     
     .producto2__titulo{
-        font-size:map-get($fuentes,cuatro);
-    }.producto2__titulo{
-        font-size:map-get($fuentes,7);
+        font-size:map-get($fuentes,9);
     }
+    
     .parrafo__quiensoy{
         font-size:map-get($fuentes,9);
     }
@@ -643,4 +656,10 @@ form{
         border: 7px solid;
         box-sizing: border-box;
     }
+    .mi__imagen{
+        margin-left: 35%;
+        width: 30%;
+        
+    }
+    
 }

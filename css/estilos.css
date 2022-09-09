@@ -148,7 +148,7 @@ h2 {
 .producto2__titulo {
   color: #28b5b5;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: "Poppins", sans-serif;
   margin-top: 2%; }
 
@@ -295,11 +295,6 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem; }
 
-.ofertaTitu {
-  color: #4b778d;
-  font-family: "Poppins", sans-serif;
-  font-size: 2rem; }
-
 .ofertaTexto {
   color: #28b5b5;
   font-family: "Roboto", sans-serif;
@@ -313,7 +308,7 @@ h2 {
 
 /*formulario contacto*/
 form {
-  color: #2a8658;
+  color: #4b778d;
   font-size: 1.5rem; }
 
 .form {
@@ -442,7 +437,20 @@ form {
     box-sizing: border-box;
     margin-top: 35%; }
   .cerrar {
-    margin-top: 0%; } }
+    margin-top: 0%; }
+  .img__perfumeo {
+    width: 60%;
+    height: 50%;
+    margin-left: 25%; }
+  .mi__imagen {
+    margin-left: 25%;
+    width: 45%; }
+  .ofertaTitulo {
+    font-size: 1.5rem; }
+  .ofertaTexto {
+    font-size: 1rem; }
+  .ofertaIcono {
+    font-size: 1rem; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .contenedor {
@@ -504,9 +512,7 @@ form {
     display: block;
     margin-left: 20%; }
   .producto2__titulo {
-    font-size: 1rem; }
-  .producto2__titulo {
-    font-size: 0.8rem; }
+    font-size: 1.2rem; }
   .parrafo__quiensoy {
     font-size: 1.2rem; }
   .parrafo__contacto {
@@ -523,4 +529,7 @@ form {
     height: 100%;
     margin-left: 20%;
     border: 7px solid;
-    box-sizing: border-box; } }
+    box-sizing: border-box; }
+  .mi__imagen {
+    margin-left: 35%;
+    width: 30%; } }
