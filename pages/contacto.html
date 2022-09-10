@@ -57,17 +57,17 @@
             <section class="section__contacto container">
                 <div class="animate_animate animate__backInDown form">
                     
-                    <form class="row g-3 needs-validation">
+                    <form action="https://formsubmit.co/ritabelensuarez@hotmail.com" method="POST" class="row g-3 needs-validation">
                         <div class="col-md-4 position-relative">
                           <label for="validationTooltip01" class="form-label">Nombre</label>
-                          <input type="text" class="form-control" id="validationTooltip01" value="Mark" required="Complete Nombre">
+                          <input type="text" name="name" class="form-control" id="validationTooltip01" value="" required="Complete Nombre">
                           <div class="valid-tooltip">
                             Looks good!
                           </div>
                         </div>
                         <div class="col-md-4 position-relative">
                           <label for="validationTooltip02" class="form-label">Apellido</label>
-                          <input type="text" class="form-control" id="validationTooltip02" value="Otto" required="Complete Apellido">
+                          <input type="text" name="apellido" class="form-control" id="validationTooltip02" value="" required="Complete Apellido">
                           <div class="valid-tooltip">
                             Looks good!
                           </div>
@@ -76,7 +76,7 @@
                           <label for="validationTooltipUsername" class="form-label">E-mail</label>
                           <div class="input-group has-validation">
                             <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required="Complete E-mail">
+                            <input type="email" name="email" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required="Complete E-mail">
                             <div class="invalid-tooltip">
                               Please choose a unique and valid Usermane.
                             </div>
@@ -87,10 +87,10 @@
                             <textarea class="comentario" name="comentario" id="" cols="100" rows="12"></textarea>
                         </div>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-success boton">Enviar</button>
+                            <button type="submit" value="enviar" class="btn btn-primary boton">Enviar</button>
                         </div>
                         <div class="col-auto">
-                            <button type="reset" class="btn btn-success boton">Borrar</button>
+                            <button type="reset" value="reset" class="btn btn-primary boton">Borrar</button>
                         </div>
                         
                         
@@ -111,7 +111,7 @@
                 <li class="footer__li"><a class="footer__a" href="https://www.facebook.com/mardefraganciasbs" target="_blank"><i class="fa-brands fa-facebook icon"></i>Facebook</a>
                 </li>
                 <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-instagram icon"></i>Instragram</a></li>
-                <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/mardefraganciasbs/" target="_blank"><i class="fa-brands fa-whatsapp icon"></i>Whatssap</a></li>
+                <li class="footer__li"><a class="footer__a" id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=540111564046542&amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?"><i class="fa-brands fa-whatsapp icon"></i>Whatssap</a></li>
             </ul>
              
         </footer> <!--Fin del Footer-->

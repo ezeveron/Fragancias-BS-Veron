@@ -4,7 +4,7 @@
 
 
 header{
-    background-color: $color-fondo;  
+    background-color:$color-fondo  
 }
 /*titulo header*/
 
@@ -41,7 +41,7 @@ h1{
             .navegador__li{
                 font-size:map-get($fuentes,1);
                 font-weight: bolder;
-                color:rgb(255, 255, 255);
+                color:/*rgb(255, 255, 255)*/$color-titulo;
                 .navegador__a{
                     @extend .navegador__li;
                                 &:hover{
@@ -64,7 +64,7 @@ h2{
 /*subtitulos main index*/
 .h3__inicio{
     font-family: $font-family-titulos;
-    color:$color-fondo;
+    color:$color-letras;
     font-size:map-get($fuentes,1);
     font-weight: bolder; 
 }
@@ -72,7 +72,7 @@ h2{
 .parrafo__inicio{
     font-family:$font-family-parrafo ;
     font-size:map-get($fuentes,2);
-    color: rgb(42, 134, 88);     
+    color: /*$color-letras*/rgb(47, 93, 98);     
 }
 .img__inicio{
     object-fit: cover;
@@ -91,7 +91,7 @@ h2{
             text-decoration: none;
             .footer__a{
                 text-decoration: none;
-                color: $color-footer-size;
+                color:/* $color-footer-size*/$color-titulo;
                 font-family: $font-family-parrafo;
                 font-size:map-get($fuentes,1);
             }
@@ -102,7 +102,7 @@ h2{
 .footer__h3{
     font-size:map-get($fuentes,1);
     font-family: $font-family-parrafo;
-    color: $color-footer-size;
+    color:/* $color-footer-size*/$color-titulo;
     font-weight: bolder;
     margin-top: 1%;
     
@@ -131,7 +131,7 @@ h2{
     margin-top: 1%;
     .producto__a{
         list-style: none;
-        color: rgb(23, 156, 57);
+        color: rgb(47, 93, 98);
         font-size:map-get($fuentes,cuatro);
         font-weight: bold;
         border-style: none;
@@ -147,16 +147,16 @@ h2{
     display: inline-block;
 }
 .producto2__titulo{
-    color: rgb(38, 129, 58);
+    color:$color-letras;
     font-weight: bold;
-    font-size:map-get($fuentes,cinco);
+    font-size:map-get($fuentes,6);
     font-family: $font-family-titulos ;
     margin-top: 2%;
     
 }
 /*genero perfumes*/
 .producto2__subtitulo{
-   color: rgb(71, 95, 76) ;
+   color:rgb(83, 191, 157);
    font-family: $font-family-titulos ;
    font-size:map-get($fuentes,1);
    margin-top: 2%; 
@@ -164,7 +164,7 @@ h2{
 }
 /*producto*/
 .producto2__li{
-    color: rgb(35, 161, 56);
+    color:$color-fondo;
     font-family: $font-family-parrafo ;
     font-weight: bold;
     text-align: center;  
@@ -172,9 +172,10 @@ h2{
 }
 /*precio producto*/
 .productos2__p{
-    @extend .producto2__li;
+    color:$color-letras;
     font-weight: normal;
     margin-top: 0%;
+    text-align: center;
 }
 .mi__imagen{
     margin-top: 2%;
@@ -244,7 +245,7 @@ h2{
 .tarjeta{
     margin: 4%;
     transition: 1s;
-    box-shadow: 10px 5px 5px rgba(131, 233, 224, 0.87);
+    box-shadow: 10px 5px 5px rgb(40, 181, 181);
     &:hover{
         transform:scale(1.1) ;
     }
@@ -261,7 +262,7 @@ h2{
     'img5 img5 img7 img9'
     'img5 img5 img6 img8';
     gap: 0.5%; 
-    margin: 0.5%; 
+    margin: 3%; 
 }
 .galeria_img{
     width: 100%;
@@ -297,10 +298,31 @@ h2{
     @include display-aling-flex ; 
         
 }
+.div__oferta{
+    margin-top: 3%;
+    border: solid 2px rgb(40, 181, 181);
+}
+.ofertaTitulo{
+    margin-top: 8%;
+    color: $color-fondo;
+    font-family: $font-family-titulos;
+    font-size: 2rem;
+}
+.ofertaTexto{
+    color: $color-letras;
+    font-family: $font-family-parrafo;
+    font-size: 1.5rem;
+}
+.ofertaIcono{
+    color:rgb(255, 197, 77);
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
 
 /*formulario contacto*/
 form{
-    color:rgb(42, 134, 88) ;
+    color:$color-fondo;
     font-size:map-get($fuentes,cinco); 
 }
 .form{
@@ -344,6 +366,7 @@ form{
 }
 
 .parrafo__contacto{
+    margin-top: 5%;
     font-size:map-get($fuentes,cuatro);
 }
 .animate_animate.animate__backInDown{
@@ -397,7 +420,7 @@ form{
         font-size:map-get($fuentes,cuatro);
     }
     .parrafo__inicio{
-        font-size:map-get($fuentes,7);
+        font-size:map-get($fuentes,2);
     }
     
     .footer__h3{
@@ -449,7 +472,7 @@ form{
         width: 100%;
     }
     .parrafo__quiensoy{
-        font-size:map-get($fuentes,cuatro);
+        font-size:map-get($fuentes,2);
     }
     .form{
         margin-left: 10%;
@@ -480,12 +503,34 @@ form{
     }
     .imagen img{
         width: 90%;
-        height: 100%;
+        height: 80%;
         margin-left:20%;
         border: 7px solid;
         box-sizing: border-box;
+        margin-top: 25%;
     }
-   
+    .cerrar{
+        margin-top: 0%;
+    }
+    .img__perfumeo{ 
+        width: 60%;
+        height: 50%;
+        margin-left: 25%;
+    }
+    .mi__imagen{
+        margin-left: 25%;
+        width: 45%;
+        
+    }
+    .ofertaTitulo{
+        font-size: 1.5rem;
+    }
+    .ofertaTexto{
+        font-size: 1rem;
+    }
+    .ofertaIcono{
+        font-size: 1rem;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
     .contenedor{
@@ -586,10 +631,9 @@ form{
     }
     
     .producto2__titulo{
-        font-size:map-get($fuentes,cuatro);
-    }.producto2__titulo{
-        font-size:map-get($fuentes,7);
+        font-size:map-get($fuentes,9);
     }
+    
     .parrafo__quiensoy{
         font-size:map-get($fuentes,9);
     }
@@ -613,4 +657,9 @@ form{
         border: 7px solid;
         box-sizing: border-box;
     }
+    .mi__imagen{
+        margin-left: 35%;
+        width: 30%;
+        
+    }  
 }
