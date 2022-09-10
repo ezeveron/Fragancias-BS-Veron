@@ -82,7 +82,7 @@ h2 {
 .parrafo__inicio, .parrafo__quiensoy, .parrafo__contacto {
   font-family: "Roboto", sans-serif;
   font-size: 0.95rem;
-  color: #1c6758; }
+  color: #2f5d62; }
 
 .img__inicio {
   object-fit: cover; }
@@ -132,7 +132,7 @@ h2 {
   margin-top: 1%; }
   .producto__li .producto__a {
     list-style: none;
-    color: #1c6758;
+    color: #2f5d62;
     font-size: 1rem;
     font-weight: bold;
     border-style: none; }
@@ -237,7 +237,7 @@ h2 {
 .tarjeta {
   margin: 4%;
   transition: 1s;
-  box-shadow: 10px 5px 5px #d2e69c; }
+  box-shadow: 10px 5px 5px #28b5b5; }
   .tarjeta:hover {
     transform: scale(1.1); }
 
@@ -249,7 +249,7 @@ h2 {
   grid-auto-rows: 250px;
   grid-template-areas: 'img1 img2 img3 img3' 'img1 img4 img3 img3' 'img5 img5 img7 img9' 'img5 img5 img6 img8';
   gap: 0.5%;
-  margin: 0.5%; }
+  margin: 3%; }
 
 .galeria_img {
   width: 100%;
@@ -344,6 +344,7 @@ form {
     transform: translateX(0); } }
 
 .parrafo__contacto {
+  margin-top: 5%;
   font-size: 1rem; }
 
 .animate_animate.animate__backInDown {
