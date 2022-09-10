@@ -41,7 +41,7 @@ h1{
             .navegador__li{
                 font-size:map-get($fuentes,1);
                 font-weight: bolder;
-                color:/*rgb(255, 255, 255)*/rgb(75, 119, 141);
+                color:/*rgb(255, 255, 255)*/$color-titulo;
                 .navegador__a{
                     @extend .navegador__li;
                                 &:hover{
@@ -57,7 +57,7 @@ h2{
     font-style: normal;
     font-size:map-get($fuentes,12);
     font-family: $font-size-titulo ;
-    color: $color-letras;
+    color: $color-fondo;
     text-decoration: underline;
     margin: 0.5%;
 }
@@ -72,7 +72,7 @@ h2{
 .parrafo__inicio{
     font-family:$font-family-parrafo ;
     font-size:map-get($fuentes,2);
-    color: $color-titulo;     
+    color: /*$color-letras*/rgb(28, 103, 88);     
 }
 .img__inicio{
     object-fit: cover;
@@ -91,7 +91,7 @@ h2{
             text-decoration: none;
             .footer__a{
                 text-decoration: none;
-                color:/* $color-footer-size*/rgb(75, 119, 141);
+                color:/* $color-footer-size*/$color-titulo;
                 font-family: $font-family-parrafo;
                 font-size:map-get($fuentes,1);
             }
@@ -102,7 +102,7 @@ h2{
 .footer__h3{
     font-size:map-get($fuentes,1);
     font-family: $font-family-parrafo;
-    color:/* $color-footer-size*/rgb(75, 119, 141);
+    color:/* $color-footer-size*/$color-titulo;
     font-weight: bolder;
     margin-top: 1%;
     
@@ -131,7 +131,7 @@ h2{
     margin-top: 1%;
     .producto__a{
         list-style: none;
-        color: $color-titulo;
+        color: rgb(28, 103, 88);
         font-size:map-get($fuentes,cuatro);
         font-weight: bold;
         border-style: none;
@@ -164,7 +164,7 @@ h2{
 }
 /*producto*/
 .producto2__li{
-    color:$color-titulo;
+    color:$color-fondo;
     font-family: $font-family-parrafo ;
     font-weight: bold;
     text-align: center;  
@@ -304,7 +304,7 @@ h2{
 }
 .ofertaTitulo{
     margin-top: 8%;
-    color: $color-titulo;
+    color: $color-fondo;
     font-family: $font-family-titulos;
     font-size: 2rem;
 }
@@ -322,7 +322,7 @@ h2{
 
 /*formulario contacto*/
 form{
-    color:$color-titulo ;
+    color:$color-fondo;
     font-size:map-get($fuentes,cinco); 
 }
 .form{
@@ -506,7 +506,7 @@ form{
         margin-left:20%;
         border: 7px solid;
         box-sizing: border-box;
-        margin-top: 35%;
+        margin-top: 25%;
     }
     .cerrar{
         margin-top: 0%;
