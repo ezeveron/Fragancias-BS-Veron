@@ -384,7 +384,7 @@ form {
   .h3__inicio {
     font-size: 1rem; }
   .parrafo__inicio, .parrafo__quiensoy, .parrafo__contacto {
-    font-size: 0.8rem; }
+    font-size: 0.95rem; }
   .footer__h3 {
     font-size: 1.2rem; }
   .footer__img {
@@ -414,7 +414,7 @@ form {
   .img__quiensoy {
     width: 100%; }
   .parrafo__quiensoy {
-    font-size: 1rem; }
+    font-size: 0.95rem; }
   .form {
     margin-left: 10%; }
   form {

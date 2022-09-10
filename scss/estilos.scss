@@ -420,7 +420,7 @@ form{
         font-size:map-get($fuentes,cuatro);
     }
     .parrafo__inicio{
-        font-size:map-get($fuentes,7);
+        font-size:map-get($fuentes,2);
     }
     
     .footer__h3{
@@ -472,7 +472,7 @@ form{
         width: 100%;
     }
     .parrafo__quiensoy{
-        font-size:map-get($fuentes,cuatro);
+        font-size:map-get($fuentes,2);
     }
     .form{
         margin-left: 10%;
@@ -661,6 +661,5 @@ form{
         margin-left: 35%;
         width: 30%;
         
-    }
-    
+    }  
 }
